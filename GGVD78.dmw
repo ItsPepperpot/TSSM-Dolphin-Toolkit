@@ -7,6 +7,34 @@
             "length": 6,
             "typeIndex": 5,
             "unsigned": false
+        },
+        {
+            "address": "804B4503",
+            "baseIndex": 0,
+            "label": "SpongeBob Health",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
+            "address": "804B4507",
+            "baseIndex": 0,
+            "label": "SpongeBob Max Health",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
+            "address": "804B4973",
+            "baseIndex": 0,
+            "label": "Patrick Health",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
+            "address": "804B4977",
+            "baseIndex": 0,
+            "label": "Patrick Max Health",
+            "typeIndex": 0,
+            "unsigned": false
         }
     ]
 }
