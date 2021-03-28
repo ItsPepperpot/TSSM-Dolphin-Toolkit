@@ -10,7 +10,13 @@ Example use cases:
 ## How to Use
 1. Download [Dolphin Memory Engine](https://github.com/aldelaro5/Dolphin-memory-engine/releases)
 2. Clone/download this repository.
-3. In Dolphin Memory Engine, go to `File > Open` and open the correct .dmw for your game version.
+3. In Dolphin Memory Engine, go to `File > Open` and open the correct .dmw for your game ID.
+
+If you don't know your game ID:
+- NTSC (English): `GGVE78`
+- PAL (English): `GGVP78`
+- PAL (Deutsch): `GGVD78`
+- PAL (Français/Nederlands): `GGVX78`
 4. Open the game in Dolphin.
 
 ## Memory Address Descriptions
