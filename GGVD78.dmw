@@ -1,0 +1,12 @@
+{
+    "watchList": [
+        {
+            "address": "80000000",
+            "baseIndex": 0,
+            "label": "Game ID",
+            "length": 6,
+            "typeIndex": 5,
+            "unsigned": false
+        }
+    ]
+}
