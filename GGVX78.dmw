@@ -1,0 +1,26 @@
+{
+    "watchList": [
+        {
+            "address": "80000000",
+            "baseIndex": 0,
+            "label": "Game ID",
+            "length": 6,
+            "typeIndex": 5,
+            "unsigned": false
+        },
+        {
+            "address": "804B5003",
+            "baseIndex": 0,
+            "label": "SpongeBob Health",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
+            "address": "804B5007",
+            "baseIndex": 0,
+            "label": "SpongeBob Max Health",
+            "typeIndex": 0,
+            "unsigned": false
+        }
+    ]
+}
