@@ -24,10 +24,20 @@ If you don't know your game ID:
 | Label | Description |
 |-------|-------------|
 |Game ID|Game's ID.<br />`G` - System Code (GameCube)<br />`GV` - Title Code (The SpongeBob SquarePants Movie)<br />`E`/`P`/`D`/`X` - Region Code (Varies)<br />`78` - Publisher Code (THQ)|
+|Karate Spin|Unlock/upgrade status of Karate Spin.<br />`0` = locked, `1` = unlocked, `2` = upgraded (applies to all moves below).|
+|Bash|Unlock/upgrade status of Bash.|
+|Spongebowl|Unlock/upgrade status of Spongebowl.|
+|Sonic Wave|Unlock/upgrade status of Sonic Wave.|
+|Star Spin|Unlock/upgrade status of Star Spin.|
+|Cartwheel|Unlock/upgrade status of Cartwheel.|
+|Smash|Unlock/upgrade status of Smash.|
+|Throw|Unlock/upgrade status of Throw.|
+|SpongeBob Health Upgrades|The number of health upgrades SpongeBob has.|
+|Patrick Health Upgrades|The number of health upgrades Patrick has.|
 |SpongeBob Health|The health SpongeBob has remaining.|
-|SpongeBob Max Health|SpongeBob's maximum health.|
+|SpongeBob Max Health|SpongeBob's maximum health.<br />Calculated from `3` + the number of health upgrades. Updates after SpongeBob dies.|
 |Patrick Health|The health Patrick has remaining.|
-|Patrick Max Health|Patrick's maximum health.|
+|Patrick Max Health|Patrick's maximum health.<br />Calculated from `3` + the number of health upgrades. Updates after Patrick dies.|
 |Sliding/Driving Health|The health remaining when sliding or driving.
 |Sliding/Driving Max Health|The maximum health when sliding or driving.<br />Setting this to values above `3` will update the UI, but you won't gain extra lives as the game is hardcoded to three lives in these levels.|
 |Player is Jumping|Whether the player is performing a single-jump.<br />It is possible for this value to be `0` when double jumping, if the player jumps after falling off a ledge after the game's ~30 frames coyote time.|
