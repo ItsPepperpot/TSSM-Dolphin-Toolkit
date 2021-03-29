@@ -29,16 +29,17 @@ If you don't know your game ID:
 |Patrick Health|The health Patrick has remaining.|
 |Patrick Max Health|Patrick's maximum health.|
 |Sliding/Driving Health|The health remaining when sliding or driving.
-|Sliding/Driving Max Health|The maximum health when sliding or driving.<br />Setting this to values above `3` will update the UI, but you won't gain extra lives as the game is hardcoded to three lives in these levels.
-|Manliness Points|The manliness points collected.<br />The in-game UI lags behind the true count—after collecting manlies, the UI element will count up towards the actual value.
-|Token Count|The number of tokens currently collected.|
-|Extras Count|The number of extras currently collected.|
-|Upgrade Points|The number of upgrade points remaining.<br />Values above `30` are displayed as "0" in the upgrade menu.|
+|Sliding/Driving Max Health|The maximum health when sliding or driving.<br />Setting this to values above `3` will update the UI, but you won't gain extra lives as the game is hardcoded to three lives in these levels.|
 |Player is Jumping|Whether the player is performing a single-jump.<br />It is possible for this value to be `0` when double jumping, if the player jumps after falling off a ledge after the game's ~30 frames coyote time.|
 |Player is Double Jumping|Whether the player is double jumping.|
 |Player is Spinning|Whether the player is using the star spin/karate spin.|
 |Player is Bashing (SB)|Whether the player is using the bash attack.|
 |Player is Bowling (SB)|Whether the player is using the sponge bowl.|
+|Manliness Points|The manliness points collected.<br />The in-game UI lags behind the true count—after collecting manlies, the UI element will count up towards the actual value.|
+|Token Count|The number of tokens currently collected.|
+|Extras Count|The number of extras currently collected.|
+|Upgrade Points|The number of upgrade points remaining.<br />Values above `30` are displayed as "0" in the upgrade menu.|
+|Camera is Zoomed In|Whether the camera is in the zoomed in state.|
 |Bowl Electricity Effect Active|Whether the electricity effect is active during the upgraded sponge bowl's explode animation.|
 |Bowl Aura Effect Active|Whether the aura sphere is active during the upgraded sponge bowl's explode animation. <br />Locking this to `1` will show the location of the last ball explosion. Appears to always be reset to `0` after warping. If enabled after warping, the aura location will be at the map's origin (0,0,0).|
 |Player Is In Source Box (Box State)|Whether the player is standing in a warp box prior to being teleported.<br />This byte is responsible for "box state glitch", wherein you cannot take damage from enemies or goo, and you are unable to use certain abilities. You can activate the glitch by warping in a source box while the target box is unopened, or by locking this value to `1`.|
