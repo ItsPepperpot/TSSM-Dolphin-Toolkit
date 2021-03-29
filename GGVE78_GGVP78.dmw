@@ -114,6 +114,13 @@
             "unsigned": false
         },
         {
+            "address": "804B0AC7",
+            "baseIndex": 0,
+            "label": "Camera Is Zoomed In",
+            "typeIndex": 0,
+            "unsigned": false
+        },
+        {
             "address": "804B12D0",
             "baseIndex": 0,
             "label": "Bowl Electricity Effect Active",
