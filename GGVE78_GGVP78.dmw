@@ -9,6 +9,27 @@
             "unsigned": false
         },
         {
+            "address": "803F9BB8",
+            "baseIndex": 0,
+            "label": "X Pos",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "804AE344",
+            "baseIndex": 0,
+            "label": "Y Pos",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "803F9BC0",
+            "baseIndex": 0,
+            "label": "Z Pos",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
             "address": "804AE9E3",
             "baseIndex": 0,
             "label": "SpongeBob Health",
