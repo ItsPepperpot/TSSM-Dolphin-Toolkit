@@ -40,4 +40,9 @@ If you don't know your game ID:
 |Player is Bashing (SB)|Whether the player is using the bash attack.|
 |Player is Bowling (SB)|Whether the player is using the sponge bowl.|
 |Bowl Electricity Effect Active|Whether the electricity effect is active during the upgraded sponge bowl's explode animation.|
-|Bowl Warping Effect Active|Whether the warping effect is active during the upgraded sponge bowl's explode animation. <br />While normally `1` during explosion, it can be `0` if the ball explodes behind the camera or in a place where the ball isn't visible.
+|Bowl Aura Effect Active|Whether the aura sphere is active during the upgraded sponge bowl's explode animation. <br />Locking this to `1` will show the location of the last ball explosion. Appears to always be reset to `0` after warping. If enabled after warping, the aura location will be at the map's origin (0,0,0).|
+|Player Is In Source Box (Box State)|Whether the player is standing in a warp box prior to being teleported.<br />This byte is responsible for "box state glitch", wherein you cannot take damage from enemies or goo, and you are unable to use certain abilities. You can activate the glitch by warping in a source box while the target box is unopened, or by locking this value to `1`.|
+|Bowl Warping Effect Active|Whether the warping effect is active during the upgraded sponge bowl's explode animation. <br />While normally `1` during explosion, it can be `0` if the ball explodes behind the camera or in a place where the ball isn't visible.|
+
+## TODO
+- Find player x,y,z location (not static addresses)

@@ -121,6 +121,20 @@
             "unsigned": true
         },
         {
+            "address": "804B12DC",
+            "baseIndex": 0,
+            "label": "Bowl Aura Effect Active",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
+            "address": "804B13F7",
+            "baseIndex": 0,
+            "label": "Player Is In Source Box (Box State)",
+            "typeIndex": 0,
+            "unsigned": true
+        },
+        {
             "address": "804B1774",
             "baseIndex": 0,
             "label": "Bowl Warping Effect Active",
