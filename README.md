@@ -151,6 +151,24 @@ Speedrunners can abuse this fact to skip token animations by dying and bouncing 
 <td>The player's last grounded Z coordinate.</td>
 </tr>
 <tr>
+<th colspan="2">Player Position Duplicate (Read-Only)</th>
+</tr>
+<tr>
+<td colspan="2">The following contains memory addresses that are continuously updated with the player's position. They do not contain the actual internal position of the player, and writing to these addresses will not change the player's position. The actual player position's addresses are dynamic and change each level, but these are useful for the sake of reference.</td>
+</tr>
+<tr>
+<td>X Position</td>
+<td>The player's current X coordinate.</td>
+</tr>
+<tr>
+<td>Y Position</td>
+<td>The player's current Y coordinate.</td>
+</tr>
+<tr>
+<td>Z Position</td>
+<td>The player's current Z coordinate.</td>
+</tr>
+<tr>
 <th colspan="2">Collectibles</th>
 </tr>
 <tr>
