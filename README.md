@@ -195,6 +195,22 @@ Speedrunners can abuse this fact to skip token animations by dying and bouncing 
 <td>Whether the camera is in the zoomed in state.</td>
 </tr>
 <tr>
+<td>Camera X Position</td>
+<td>The camera's X coordinate.</td>
+</tr>
+<tr>
+<td>Camera Y Position</td>
+<td>The camera's Y coordinate.</td>
+</tr>
+<tr>
+<td>Camera Z Position</td>
+<td>The camera's Z coordinate.</td>
+</tr>
+<tr>
+<td>Camera Roll</td>
+<td>The camera's roll. TODO: Add units</td>
+</tr>
+<tr>
 <th colspan="2">Miscellaneous</th>
 </tr>
 <tr>
