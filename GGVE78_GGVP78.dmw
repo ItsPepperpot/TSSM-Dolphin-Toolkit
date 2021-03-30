@@ -273,6 +273,11 @@
                 }
             ],
             "groupName": "Miscellaneous"
+        },
+        {
+            "groupEntries": [
+            ],
+            "groupName": "Player Position Duplicate (Read-Only)"
         }
     ]
 }
