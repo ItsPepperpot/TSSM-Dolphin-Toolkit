@@ -134,7 +134,7 @@ If you don't know your game ID:
 </tr>
 <tr>
 <td colspan="2">When the player falls off a ledge into a damage source (e.g. goo or spikes), the player will typically be bounced back to their last grounded position within a certain range.<br />
-This value is constantly updated with the player's currently position, however, if the player jumps very quickly within landing (TODO: add frame window?) or jumps on the very edge of a platform, this position won't be updated, allowing the player to bounce back to a position of their choice.<br />
+This value is constantly updated with the player's current position, however, if the player jumps very quickly within landing (TODO: add frame window?) or jumps on the very edge of a platform, this position won't be updated, allowing the player to bounce back to a position of their choice.<br />
 Speedrunners can abuse this fact to skip token animations by dying and bouncing into a token simultaneously.
 </td>
 </tr>
