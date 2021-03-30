@@ -8,159 +8,296 @@
             "typeIndex": 5,
             "unsigned": false
         },
+            "groupEntries": [
+                {
+                    "address": "804AE559",
+                    "baseIndex": 0,
+                    "label": "Karate Spin",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE55A",
+                    "baseIndex": 0,
+                    "label": "Bash",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE55B",
+                    "baseIndex": 0,
+                    "label": "Spongebowl",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE55C",
+                    "baseIndex": 0,
+                    "label": "Sonic Wave",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE55D",
+                    "baseIndex": 0,
+                    "label": "Star Spin",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE55E",
+                    "baseIndex": 0,
+                    "label": "Cartwheel",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AE55F",
+                    "baseIndex": 0,
+                    "label": "Smash",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE560",
+                    "baseIndex": 0,
+                    "label": "Throw",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE561",
+                    "baseIndex": 0,
+                    "label": "SpongeBob Health Upgrades",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE562",
+                    "baseIndex": 0,
+                    "label": "Patrick Health Upgrades",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Abilities/Upgrades"
+        },
         {
+            "groupEntries": [
+                {
+                    "address": "804AE9E3",
+                    "baseIndex": 0,
+                    "label": "SpongeBob Health",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE9E7",
+                    "baseIndex": 0,
+                    "label": "SpongeBob Max Health",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AEE53",
+                    "baseIndex": 0,
+                    "label": "Patrick Health",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AEE57",
+                    "baseIndex": 0,
+                    "label": "Patrick Max Health",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AF2C3",
+                    "baseIndex": 0,
+                    "label": "Sliding/Driving Health",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AF2C7",
+                    "baseIndex": 0,
+                    "label": "Sliding/Driving Max Health",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Health"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "804B0AC7",
+                    "baseIndex": 0,
+                    "label": "Camera Is Zoomed In",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Camera"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "804AF80B",
+                    "baseIndex": 0,
+                    "label": "Player Is Jumping",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AF80F",
+                    "baseIndex": 0,
+                    "label": "Player Is Double Jumping",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AF813",
+                    "baseIndex": 0,
+                    "label": "Player Is Spinning",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AF81B",
+                    "baseIndex": 0,
+                    "label": "Player Is Bashing (SB)",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AF81F",
+                    "baseIndex": 0,
+                    "label": "Player Is Bowling (SB)",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804B13F7",
+                    "baseIndex": 0,
+                    "label": "Player Is In Source Box (Box State)",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Player States"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "8048C68C",
+                    "baseIndex": 0,
+                    "label": "Last Grounded X Position",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "8048C690",
+                    "baseIndex": 0,
+                    "label": "Last Grounded Y Position",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8048C694",
+                    "baseIndex": 0,
+                    "label": "Last Grounded Z Position",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Last Grounded Position"
+        },
+        {
+            "groupEntries": [
+            {
             "address": "803F9BB8",
             "baseIndex": 0,
-            "label": "X Pos",
+            "label": "X Position",
             "typeIndex": 3,
             "unsigned": false
         },
         {
             "address": "804AE344",
             "baseIndex": 0,
-            "label": "Y Pos",
+            "label": "Y Position",
             "typeIndex": 3,
             "unsigned": false
         },
         {
             "address": "803F9BC0",
             "baseIndex": 0,
-            "label": "Z Pos",
+            "label": "Z Position",
             "typeIndex": 3,
             "unsigned": true
         },
-        {
-            "address": "804AE9E3",
-            "baseIndex": 0,
-            "label": "SpongeBob Health",
-            "typeIndex": 0,
-            "unsigned": false
+            ],
+            "groupName": "Player Position Duplicate (Read-Only)"
         },
         {
-            "address": "804AE9E7",
-            "baseIndex": 0,
-            "label": "SpongeBob Max Health",
-            "typeIndex": 0,
-            "unsigned": true
+            "groupEntries": [
+                {
+                    "address": "804AF836",
+                    "baseIndex": 0,
+                    "label": "Manliness Points",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AF83F",
+                    "baseIndex": 0,
+                    "label": "Token Count",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AF93B",
+                    "baseIndex": 0,
+                    "label": "Extras Count",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AF949",
+                    "baseIndex": 0,
+                    "label": "Upgrade Points",
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Collectibles"
         },
         {
-            "address": "804AEE53",
-            "baseIndex": 0,
-            "label": "Patrick Health",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "804AEE57",
-            "baseIndex": 0,
-            "label": "Patrick Max Health",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "804AF2C3",
-            "baseIndex": 0,
-            "label": "Sliding/Driving Health",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "804AF2C7",
-            "baseIndex": 0,
-            "label": "Sliding/Driving Max Health",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "804AF80B",
-            "baseIndex": 0,
-            "label": "Player Is Jumping",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "804AF80F",
-            "baseIndex": 0,
-            "label": "Player Is Double Jumping",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "804AF813",
-            "baseIndex": 0,
-            "label": "Player Is Spinning",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "804AF81B",
-            "baseIndex": 0,
-            "label": "Player Is Bashing (SB)",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "804AF81F",
-            "baseIndex": 0,
-            "label": "Player Is Bowling (SB)",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "804AF836",
-            "baseIndex": 0,
-            "label": "Manliness Points",
-            "typeIndex": 1,
-            "unsigned": false
-        },
-        {
-            "address": "804AF83F",
-            "baseIndex": 0,
-            "label": "Token Count",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "804AF93B",
-            "baseIndex": 0,
-            "label": "Extras Count",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "804AF949",
-            "baseIndex": 0,
-            "label": "Upgrade Points",
-            "typeIndex": 0,
-            "unsigned": false
-        },
-        {
-            "address": "804B12D0",
-            "baseIndex": 0,
-            "label": "Bowl Electricity Effect Active",
-            "typeIndex": 0,
-            "unsigned": true
-        },
-        {
-            "address": "804B12DC",
-            "baseIndex": 0,
-            "label": "Bowl Aura Effect Active",
-            "typeIndex": 0,
-            "unsigned": true
-        },
-        {
-            "address": "804B13F7",
-            "baseIndex": 0,
-            "label": "Player Is In Source Box (Box State)",
-            "typeIndex": 0,
-            "unsigned": true
-        },
-        {
-            "address": "804B1774",
-            "baseIndex": 0,
-            "label": "Bowl Warping Effect Active",
-            "typeIndex": 0,
-            "unsigned": true
+            "groupEntries": [
+                {
+                    "address": "804B12D0",
+                    "baseIndex": 0,
+                    "label": "Bowl Electricity Effect Active",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B12DC",
+                    "baseIndex": 0,
+                    "label": "Bowl Aura Effect Active",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B1774",
+                    "baseIndex": 0,
+                    "label": "Bowl Warping Effect Active",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Miscellaneous"
         }
     ]
 }
