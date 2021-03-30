@@ -130,6 +130,27 @@ If you don't know your game ID:
 <td>Whether the player is standing in a warp box prior to being teleported.<br />This byte is responsible for "box state glitch", wherein you cannot take damage from enemies or goo, and you are unable to use certain abilities. You can activate the glitch by warping in a source box while the target box is unopened, or by locking this value to <code>1</code>.</td>
 </tr>
 <tr>
+<th colspan="2">Last Grounded Position</th>
+</tr>
+<tr>
+<td colspan="2">When the player falls off a ledge into a damage source (e.g. goo or spikes), the player will typically be bounced back to their last grounded position within a certain range.<br />
+This value is constantly updated with the player's currently position, however, if the player jumps very quickly within landing (TODO: add frame window?) or jumps on the very edge of a platform, this position won't be updated, allowing the player to bounce back to a position of their choice.<br />
+Speedrunners can abuse this fact to skip token animations by dying and bouncing into a token simultaneously.
+</td>
+</tr>
+<tr>
+<td>Last Grounded X Position</td>
+<td>The player's last grounded X coordinate.</td>
+</tr>
+<tr>
+<td>Last Grounded Y Position</td>
+<td>The player's last grounded Y coordinate.</td>
+</tr>
+<tr>
+<td>Last Grounded Z Position</td>
+<td>The player's last grounded Z coordinate.</td>
+</tr>
+<tr>
 <th colspan="2">Collectibles</th>
 </tr>
 <tr>

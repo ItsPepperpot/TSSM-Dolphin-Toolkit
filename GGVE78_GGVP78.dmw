@@ -192,6 +192,32 @@
         {
             "groupEntries": [
                 {
+                    "address": "8048C68C",
+                    "baseIndex": 0,
+                    "label": "Last Grounded X Position",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "8048C690",
+                    "baseIndex": 0,
+                    "label": "Last Grounded Y Position",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8048C694",
+                    "baseIndex": 0,
+                    "label": "Last Grounded Z Position",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Last Grounded Position"
+        },
+        {
+            "groupEntries": [
+                {
                     "address": "804AF836",
                     "baseIndex": 0,
                     "label": "Manliness Points",
