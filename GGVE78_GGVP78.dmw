@@ -8,6 +8,7 @@
             "typeIndex": 5,
             "unsigned": false
         },
+        {
             "groupEntries": [
                 {
                     "address": "804AE559",
@@ -216,27 +217,27 @@
         },
         {
             "groupEntries": [
-            {
-            "address": "803F9BB8",
-            "baseIndex": 0,
-            "label": "X Position",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "804AE344",
-            "baseIndex": 0,
-            "label": "Y Position",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "803F9BC0",
-            "baseIndex": 0,
-            "label": "Z Position",
-            "typeIndex": 3,
-            "unsigned": true
-        },
+                {
+                    "address": "803F9BB8",
+                    "baseIndex": 0,
+                    "label": "X Position",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE344",
+                    "baseIndex": 0,
+                    "label": "Y Position",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F9BC0",
+                    "baseIndex": 0,
+                    "label": "Z Position",
+                    "typeIndex": 3,
+                    "unsigned": true
+                }
             ],
             "groupName": "Player Position Duplicate (Read-Only)"
         },
