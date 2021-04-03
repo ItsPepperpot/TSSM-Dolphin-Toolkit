@@ -11,6 +11,60 @@
         {
             "groupEntries": [
                 {
+                    "address": "80485DA0",
+                    "baseIndex": 3,
+                    "label": "Buttons pressed (Bit field)",
+                    "typeIndex": 1,
+                    "unsigned": true
+                },
+                {
+                    "address": "80485DA2",
+                    "baseIndex": 0,
+                    "label": "Main Stick X",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80485DA3",
+                    "baseIndex": 0,
+                    "label": "Main Stick Y",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80485DA4",
+                    "baseIndex": 0,
+                    "label": "C Stick X",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80485DA5",
+                    "baseIndex": 0,
+                    "label": "C Stick Y",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80485DA6",
+                    "baseIndex": 0,
+                    "label": "Left Shoulder Button",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80485DA7",
+                    "baseIndex": 0,
+                    "label": "Right Shoulder Button",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Controller Input"
+        },
+        {
+            "groupEntries": [
+                {
                     "address": "804AE55A",
                     "baseIndex": 0,
                     "label": "Bash",
