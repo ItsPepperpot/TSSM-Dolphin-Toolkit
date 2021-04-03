@@ -38,7 +38,7 @@ If you don't know your game ID:
 <td>Buttons pressed (Bit field)</td>
 <td>A two-byte bit field containing the state of the buttons pressed on the controller.<br /><br />
 Bit 15 → Bit 0<br />
-<code>00000000</code> <code>00000000</code>
+<code>00000000</code> <code>00000000</code><br />
 <table>
 <thead>
 <tr>
@@ -321,5 +321,6 @@ Speedrunners can abuse this fact to skip token animations by dying and bouncing 
 </table>
 
 ## TODO
+- Ice physics glitch
 - Find player x,y,z location (not static addresses), part of PLYR asset?
 - Boss healths
