@@ -32,9 +32,101 @@ If you don't know your game ID:
 <tr>
 <td>Game ID</td>
 <td>Game's ID.<br /><code>G</code> - System Code (GameCube)<br /><code>GV</code> - Title Code (The SpongeBob SquarePants Movie)<br /><code>E</code>/<code>P</code>/<code>D</code>/<code>X</code> - Region Code (Varies)<br /><code>78</code> - Publisher Code (THQ)</td>
+<tr>
+<th colspan="2">Controller Input</th>
+<tr>
+<td>Buttons pressed (Bit field)</td>
+<td>A two-byte bit field containing the state of the buttons pressed on the controller.<br /><br />
+Bit 15 → Bit 0<br />
+<code>00000000</code> <code>00000000</code>
+<table>
+<thead>
+<tr>
+<th>Bit</th><th>Button Press</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15</td><td>Unsure (controller disconnected?)</td>
+</tr>
+<tr>
+<td>14</td><td>Unsure (unused?)</td>
+</tr>
+<tr>
+<td>13</td><td>Unsure (unused?)</td>
+</tr>
+<tr>
+<td>12</td><td>START</td>
+</tr>
+<tr>
+<td>11</td><td>Y</td>
+</tr>
+<tr>
+<td>10</td><td>X</td>
+</tr>
+<tr>
+<td>9</td><td>B</td>
+</tr>
+<tr>
+<td>8</td><td>A</td>
+</tr>
+<tr>
+<td>7</td><td>Unsure (controller connected?)</td>
+</tr>
+<tr>
+<td>6</td><td>L</td>
+</tr>
+<tr>
+<td>5</td><td>R</td>
+</tr>
+<tr>
+<td>4</td><td>Z</td>
+</tr>
+<tr>
+<td>3</td><td>Up</td>
+</tr>
+<tr>
+<td>2</td><td>Down</td>
+</tr>
+<tr>
+<td>1</td><td>Right</td>
+</tr>
+<tr>
+<td>0</td><td>Left</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>Main Stick X</td>
+<td>X position of the main analog stick.<br />
+<code>0</code>–<code>255</code>, center is <code>128</code> (applies to all analog stick axes).</td>
+</tr>
+<tr>
+<td>Main Stick Y</td>
+<td>Y position of the main analog stick.
+</tr>
+<tr>
+<td>C Stick X</td>
+<td>X position of the C stick.
+</tr>
+<tr>
+<td>C Stick Y</td>
+<td>Y position of the C stick.
+</tr>
+<tr>
+<td>Left Shoulder Button</td>
+<td>How pressed the left shoulder button is.<br />
+<code>0</code> (unpressed)–<code>255</code> (fully pressed) (applies to both shoulder buttons.)
+</tr>
+<tr>
+<td>Right Shoulder Button</td>
+<td>How pressed the right shoulder button is.
 </tr>
 <tr>
 <th colspan="2">Abilities/Upgrades</th>
+</tr>
 <tr>
 <td>Karate Spin</td>
 <td>Unlock/upgrade status of Karate Spin.<br /><code>0</code> = locked, <code>1</code> = unlocked, <code>2</code> = upgraded (applies to all moves below).</td>
