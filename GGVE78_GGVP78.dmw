@@ -359,6 +359,19 @@
         {
             "groupEntries": [
                 {
+                    "address": "804AE284",
+                    "baseIndex": 0,
+                    "label": "Watermark Text",
+                    "length": 99,
+                    "typeIndex": 5,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Watermark"
+        },
+        {
+            "groupEntries": [
+                {
                     "address": "804B12DC",
                     "baseIndex": 0,
                     "label": "Bowl Aura Effect Active",
