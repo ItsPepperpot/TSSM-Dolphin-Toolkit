@@ -316,6 +316,24 @@ Can be set in SB04.ini with <code>G.TakeDamage</code>.</td>
 Can be set in SB04.ini with <code>G.DamageTimeHit</code>.</td>
 </tr>
 <tr>
+<th colspan="2">Options</th>
+</tr>
+<tr>
+<td colspan="2">The values set in the options menu. All are <code>0</code> by default until the options menu is opened for the first time.</td>
+</tr>
+<tr>
+<td>Rumble Feature</td>
+<td>Whether the user has set the rumble feature to be enabled.<br />Note that this is not the value that determines if rumble is active (see <a href="#vibration-enabled">Vibration Enabled</a>)</td>
+</tr>
+<tr>
+<td>Music Volume</td>
+<td>The setting for music volume.</td>
+</tr>
+<tr>
+<td>Sound Effects Volume</td>
+<td>The setting for sound effects volume.</td>
+</tr>
+<tr>
 <th colspan="2">Watermark</th>
 </tr>
 <tr>
@@ -343,6 +361,11 @@ Default is <code>40</code>. Can be set in SB04.ini with <code>WatermarkSize</cod
 <th colspan="2">Miscellaneous</th>
 </tr>
 <tr>
+<tr>
+<td name="vibration-enabled" id="vibration-enabled">Vibration Enabled</td>
+<td>Whether the vibration setting is enabled.<br />
+Default is <code>1</code>, though can be changed in SB04.ini with <code>option_vibration</code>. Toggling the Rumble Feature in options will override this value.</td>
+</tr>
 <tr>
 <td>Music Disabled</td>
 <td>Whether the music is disabled.<br />
