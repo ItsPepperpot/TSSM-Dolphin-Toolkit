@@ -321,6 +321,12 @@ Between <code>0</code> and <code>255</code>, default is <code>48</code>. Can be 
 </td>
 </tr>
 <tr>
+<td>Watermark Size</td>
+<td>The watermark's size.<br />
+Default is <code>40</code>. Can be set in SB04.ini with <code>WatermarkSize</code>.<br />
+</td>
+</tr>
+<tr>
 <th colspan="2">Miscellaneous</th>
 </tr>
 <tr>
