@@ -303,6 +303,18 @@ Speedrunners can abuse this fact to skip token animations by dying and bouncing 
 <td>The camera's roll. TODO: Add units</td>
 </tr>
 <tr>
+<th colspan="2">Watermark</th>
+</tr>
+<tr>
+<td colspan="2">The watermark is an in-game text overlay. While usually not visible, it can be added by adding <code>Watermark = [Your text here...]</code> to SB04.ini or by setting the Watermark Text in Dolphin Memory Engine.</td>
+</tr>
+<tr>
+<td>Watermark Text</td>
+<td>The watermark text.<br />
+Variables can also be shown in the watermark, with the syntax <code>{var:VariableName}</code>.
+</td>
+</tr>
+<tr>
 <th colspan="2">Miscellaneous</th>
 </tr>
 <tr>
