@@ -359,6 +359,25 @@
         {
             "groupEntries": [
                 {
+                    "address": "804AE483",
+                    "baseIndex": 0,
+                    "label": "Player Can Take Damage",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE484",
+                    "baseIndex": 0,
+                    "label": "Damage Delay Timer",
+                    "typeIndex": 3,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Damage"
+        },
+        {
+            "groupEntries": [
+                {
                     "address": "804AE284",
                     "baseIndex": 0,
                     "label": "Watermark Text",
@@ -385,6 +404,13 @@
         },
         {
             "groupEntries": [
+                {
+                    "address": "804AE238",
+                    "baseIndex": 0,
+                    "label": "Music Disabled",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
                 {
                     "address": "804B12DC",
                     "baseIndex": 0,
