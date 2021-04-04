@@ -433,7 +433,7 @@
                 {
                     "address": "804AE223",
                     "baseIndex": 0,
-                    "label": "Rumble Enabled",
+                    "label": "Vibration Enabled",
                     "typeIndex": 0,
                     "unsigned": true
                 },
