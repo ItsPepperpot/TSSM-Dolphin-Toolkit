@@ -365,6 +365,13 @@
                     "length": 99,
                     "typeIndex": 5,
                     "unsigned": false
+                },
+                {
+                    "address": "804AE303",
+                    "baseIndex": 0,
+                    "label": "Watermark Alpha",
+                    "typeIndex": 0,
+                    "unsigned": true
                 }
             ],
             "groupName": "Watermark"

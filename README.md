@@ -315,6 +315,12 @@ Variables can also be shown in the watermark, with the syntax <code>{var:Variabl
 </td>
 </tr>
 <tr>
+<td>Watermark Alpha</td>
+<td>The watermark alpha (opacity).<br />
+Between <code>0</code> and <code>255</code>, default is <code>48</code>. Can be set in SB04.ini with <code>WatermarkAlpha</code>.<br />
+</td>
+</tr>
+<tr>
 <th colspan="2">Miscellaneous</th>
 </tr>
 <tr>
