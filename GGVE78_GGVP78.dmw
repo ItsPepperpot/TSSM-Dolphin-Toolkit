@@ -378,6 +378,32 @@
         {
             "groupEntries": [
                 {
+                    "address": "804B0C27",
+                    "baseIndex": 0,
+                    "label": "Rumble Feature",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804B0C2F",
+                    "baseIndex": 0,
+                    "label": "Music Volume",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B0C33",
+                    "baseIndex": 0,
+                    "label": "Sound Effects Volume",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Options"
+        },
+        {
+            "groupEntries": [
+                {
                     "address": "804AE284",
                     "baseIndex": 0,
                     "label": "Watermark Text",
@@ -404,6 +430,13 @@
         },
         {
             "groupEntries": [
+                {
+                    "address": "804AE223",
+                    "baseIndex": 0,
+                    "label": "Rumble Enabled",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
                 {
                     "address": "804AE238",
                     "baseIndex": 0,
