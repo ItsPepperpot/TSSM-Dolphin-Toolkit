@@ -68,7 +68,7 @@ Maybe used early on in development.
 <td>GG02</td><td>Neptune Boss</td>
 </tr>
 <tr>
-<td>TR01, TR02, TR03, JK02, SC02, B301, PT01, PT03, PT02, B401, AM01, AM02, AM03, AM04, FB01, FB02, FB03, BL01, BL02, BL03, BL04</td><td>????</td>
+<td>All other areas</td><td>????</td>
 </tr>
 </thead>
 <tbody>
