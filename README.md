@@ -303,6 +303,19 @@ Speedrunners can abuse this fact to skip token animations by dying and bouncing 
 <td>The camera's roll. TODO: Add units</td>
 </tr>
 <tr>
+<th colspan="2">Damage</th>
+</tr>
+<tr>
+<td>Player Can Take Damage</td>
+<td>Whether the player can take damage.<br />
+Can be set in SB04.ini with <code>G.TakeDamage</code>.</td>
+</tr>
+<tr>
+<td>Damage Delay Timer</td>
+<td>The number of seconds after being hit before able to take damage.<br />
+Can be set in SB04.ini with <code>G.DamageTimeHit</code>.</td>
+</tr>
+<tr>
 <th colspan="2">Watermark</th>
 </tr>
 <tr>
@@ -330,6 +343,11 @@ Default is <code>40</code>. Can be set in SB04.ini with <code>WatermarkSize</cod
 <th colspan="2">Miscellaneous</th>
 </tr>
 <tr>
+<tr>
+<td>Music Disabled</td>
+<td>Whether the music is disabled.<br />
+Can be set in SB04.ini with <code>NoMusic</code>.</td>
+</tr>
 <td>Bowl Electricity Effect Active</td>
 <td>Whether the electricity effect is active during the upgraded sponge bowl's explode animation.</td>
 </tr>
