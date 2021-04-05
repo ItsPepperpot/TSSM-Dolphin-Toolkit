@@ -396,7 +396,7 @@ Default is <code>1</code>, though can be changed in SB04.ini with <code>option_v
 <tr>
 <td>Music Disabled</td>
 <td>Whether the music is disabled.<br />
-Can be set in SB04.ini with <code>NoMusic</code>.</td>
+Default is <code>0</code>. Can be set in SB04.ini with <code>NoMusic</code>.</td>
 </tr>
 <td>Bowl Electricity Effect Active</td>
 <td>Whether the electricity effect is active during the upgraded sponge bowl's explode animation.</td>
