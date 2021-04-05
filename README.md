@@ -238,7 +238,8 @@ Bit 15 → Bit 0<br />
 </tr>
 <tr>
 <td>SB Jump Gravity</td>
-<td>Affects the height of SpongeBob's jumps. Normally <code>5</code>.</td>
+<td>Affects the height of SpongeBob's jumps. Normally <code>5</code>.<br />
+Can be set in SB04.ini with <code>SB.JumpGravity</code>.</td>
 </tr>
 <tr>
 <td>Sliding Friction (Ice Physics Glitch)</td>
