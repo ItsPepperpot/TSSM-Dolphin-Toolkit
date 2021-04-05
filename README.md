@@ -413,6 +413,5 @@ Can be set in SB04.ini with <code>NoMusic</code>.</td>
 </table>
 
 ## TODO
-- Ice physics glitch
 - Find player x,y,z location (not static addresses), part of PLYR asset?
 - Boss healths
