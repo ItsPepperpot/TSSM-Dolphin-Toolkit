@@ -234,6 +234,46 @@
         {
             "groupEntries": [
                 {
+                    "address": "804AE584",
+                    "baseIndex": 0,
+                    "label": "SB Min Walk Speed",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE588",
+                    "baseIndex": 0,
+                    "label": "SB Max Walk Speed",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE58C",
+                    "baseIndex": 0,
+                    "label": "SB Max Run Speed",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AE5C0",
+                    "baseIndex": 0,
+                    "label": "SB Jump Gravity",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AF368",
+                    "baseIndex": 0,
+                    "label": "Sliding Friction (Ice Physics Glitch)",
+                    "typeIndex": 3,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Movement"
+        },
+        {
+            "groupEntries": [
+                {
                     "address": "8048C68C",
                     "baseIndex": 0,
                     "label": "Last Grounded X Position",
