@@ -222,6 +222,32 @@ Bit 15 → Bit 0<br />
 <td>Whether the player is standing in a warp box prior to being teleported.<br />This byte is responsible for "box state glitch", wherein you cannot take damage from enemies or goo, and you are unable to use certain abilities. You can activate the glitch by warping in a source box while the target box is unopened, or by locking this value to <code>1</code>.</td>
 </tr>
 <tr>
+<th colspan="2">Movement</th>
+</tr>
+<tr>
+<td>SB Min Walk Speed</td>
+<td>SpongeBob's minimum walk speed. Normally <code>0.6</code>.</td>
+</tr>
+<tr>
+<td>SB Max Walk Speed</td>
+<td>SpongeBob's maximum walk speed. Normally <code>4</code>.</td>
+</tr>
+<tr>
+<td>SB Max Run Speed</td>
+<td>SpongeBob's max running speed, i.e. top theoretical speed when the analog stick is fully deflected. Normally <code>5</code>.</td>
+</tr>
+<tr>
+<td>SB Jump Gravity</td>
+<td>Affects the height of SpongeBob's jumps. Normally <code>5</code>.</td>
+</tr>
+<tr>
+<td>Sliding Friction (Ice Physics Glitch)</td>
+<td>Appears to affect friction when sliding, default is <code>0</code>. Also responsible for Ice Physics Glitch (IPG).<br />
+IPG refers to the decreased friction on certain surfaces caused by this value being <code>0</code>. This value is set to <code>0.01</code> if the player touches a flinger's goo, or <code>0.2</code> when walking on freezy fruit ice.<br />Losing IPG is generally undesirable as the player will lose all their speed when landing on <em>some</em> icy surfaces (e.g. SCDA Floating Block ice blocks or the I'm Ready... Depression freezer room).<br />
+The value is not normally reset to <code>0</code>, even when exiting to main menu, so the console/game must be reset or the reduced ice speed persists.
+</tr>
+</tr>
+<tr>
 <th colspan="2">Last Grounded Position</th>
 </tr>
 <tr>
@@ -337,7 +363,7 @@ Can be set in SB04.ini with <code>G.DamageTimeHit</code>.</td>
 <th colspan="2">Watermark</th>
 </tr>
 <tr>
-<td colspan="2">The watermark is an in-game text overlay. While usually not visible, it can be added by adding <code>Watermark = [Your text here...]</code> to SB04.ini or by setting the Watermark Text in Dolphin Memory Engine.</td>
+<td colspan="2">The watermark is an in-game text overlay. While usually empty, it can be added by adding <code>Watermark = [Your text here...]</code> to SB04.ini or by setting the Watermark Text in Dolphin Memory Engine.</td>
 </tr>
 <tr>
 <td>Watermark Text</td>
