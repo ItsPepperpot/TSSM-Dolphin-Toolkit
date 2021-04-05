@@ -166,7 +166,7 @@ Will be "Empty" if nothing in the save slot.
 </tr>
 <tr>
 <td>NumChestsNeeded</td>
-<td></td>
+<td>The number of treasure chests required to unlock the next extra. Updates when opening the Extras menu.</td>
 </tr>
 <tr>
 <td>NumChestsTotalCurrentLevel</td>
