@@ -129,43 +129,54 @@ Bit 15 → Bit 0<br />
 </tr>
 <tr>
 <td>Karate Spin</td>
-<td>Unlock/upgrade status of Karate Spin.<br /><code>0</code> = locked, <code>1</code> = unlocked, <code>2</code> = upgraded (applies to all moves below).</td>
+<td>Unlock/upgrade status of Karate Spin.<br /><code>0</code> = locked, <code>1</code> = unlocked, <code>2</code> = upgraded (applies to all moves below).<br />
+Can be set in SB04.ini with <code>G.KarateSpin</code>.
+</td>
 </tr>
 <tr>
 <td>Bash</td>
-<td>Unlock/upgrade status of Bash.</td>
+<td>Unlock/upgrade status of Bash.<br />
+Can be set in SB04.ini with <code>G.Bash</code>.</td>
 </tr>
 <tr>
 <td>Spongebowl</td>
-<td>Unlock/upgrade status of Spongebowl.</td>
+<td>Unlock/upgrade status of Spongebowl.<br />
+Can be set in SB04.ini with <code>G.MachoBowl</code>.</td>
 </tr>
 <tr>
 <td>Sonic Wave</td>
-<td>Unlock/upgrade status of Sonic Wave.</td>
+<td>Unlock/upgrade status of Sonic Wave.<br />
+Can be set in SB04.ini with <code>G.WaveGuitar</code>.</td>
 </tr>
 <tr>
 <td>Star Spin</td>
-<td>Unlock/upgrade status of Star Spin.</td>
+<td>Unlock/upgrade status of Star Spin.<br />
+Can be set in SB04.ini with <code>G.BellyBump</code>.</td>
 </tr>
 <tr>
 <td>Cartwheel</td>
-<td>Unlock/upgrade status of Cartwheel.</td>
+<td>Unlock/upgrade status of Cartwheel.<br />
+Can be set in SB04.ini with <code>G.Cartwheel</code>.</td>
 </tr>
 <tr>
 <td>Smash</td>
-<td>Unlock/upgrade status of Smash.</td>
+<td>Unlock/upgrade status of Smash.<br />
+Can be set in SB04.ini with <code>G.BellyFlop</code>.</td>
 </tr>
 <tr>
 <td>Throw</td>
-<td>Unlock/upgrade status of Throw.</td>
+<td>Unlock/upgrade status of Throw.<br />
+Can be set in SB04.ini with <code>G.Throw</code>.</td>
 </tr>
 <tr>
 <td>SpongeBob Health Upgrades</td>
-<td>The number of health upgrades SpongeBob has.</td>
+<td>The number of health upgrades SpongeBob has.<br />
+Can be set in SB04.ini with <code>G.HealthSB</code>.</td>
 </tr>
 <tr>
 <td>Patrick Health Upgrades</td>
-<td>The number of health upgrades Patrick has.</td>
+<td>The number of health upgrades Patrick has.<br />
+Can be set in SB04.ini with <code>G.HealthPat</code>.</td>
 </tr>
 <tr>
 <th colspan="2">Health</th>
