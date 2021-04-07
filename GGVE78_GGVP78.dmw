@@ -733,6 +733,13 @@
                     "unsigned": true
                 },
                 {
+                    "address": "804AF947",
+                    "baseIndex": 0,
+                    "label": "Inital Unused Upgrade Points",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
                     "address": "804B12DC",
                     "baseIndex": 0,
                     "label": "Bowl Aura Effect Active",
