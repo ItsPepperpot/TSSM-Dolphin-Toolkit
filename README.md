@@ -171,7 +171,7 @@ Can be set in SB04.ini with <code>G.Throw</code>.</td>
 <tr>
 <td>SpongeBob Health Upgrades</td>
 <td>The number of health upgrades SpongeBob has.<br />
-Can be set in SB04.ini with <code>G.HealthSB</code>.</td>
+Can be set in SB04.ini with <code>G.HealthSB</code>. While usually capped at 3 in-game, you can set this value higher to give SpongeBob more health (though the UI will only display a max of 6 Krabby Patties).</td>
 </tr>
 <tr>
 <td>Patrick Health Upgrades</td>
