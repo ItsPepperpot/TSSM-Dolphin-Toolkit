@@ -505,6 +505,10 @@ Default is <code>40</code>. Can be set in SB04.ini with <code>WatermarkSize</cod
 <th colspan="2">Miscellaneous</th>
 </tr>
 <tr>
+<td>Boot HIP File</td>
+<td>The first area to load when starting a new game.<br />
+Must be set in SB04.ini using <code>BOOT</code>, default is <code>BB02</code> (No Cheese!). If not set, the game will crash attempting to load the first level.</td>
+</tr>
 <tr>
 <td name="vibration-enabled" id="vibration-enabled">Vibration Enabled</td>
 <td>Whether the vibration setting is enabled.<br />
@@ -515,6 +519,32 @@ Default is <code>1</code>, though can be changed in SB04.ini with <code>option_v
 <td>Whether the music is disabled.<br />
 Default is <code>0</code>. Can be set in SB04.ini with <code>NoMusic</code>.</td>
 </tr>
+<td>Cutscenes Disabled</td>
+<td>Whether the in-engine cutscenes are disabled.<br />
+Default is <code>0</code>. Can be set in SB04.ini with <code>NoCutscenes</code>.</td>
+</tr>
+<td>Pad Check Disabled</td>
+<td>Unsure (maybe disables checking if a gamepad is plugged in?)<br />
+Default is <code>0</code>. Can be set in SB04.ini with <code>NoPadCheck</code>.</td>
+</tr>
+<td>Asynchronous Loading Screen</td>
+<td>Controls whether the loading screen is synchronous.<br />
+Default is <code>1</code>. Can be set in SB04.ini with <code>AsyncLoadingScreen</code>. Setting to <code>0</code> will prevent loading screens appearing while a level is loading.</td>
+</tr>
+<td>Movies Disabled</td>
+<td>Whether the movies are disabled.<br />
+Movies include .bik files in the folder FMV (e.g. story cutscenes, ability upgrade and studio logos videos).
+Default is <code>0</code>. Can be set in SB04.ini with <code>NoMovies</code>.</td>
+</tr>
+<td>Force Mono</td>
+<td>Whether the audio is in mono (i.e. one audio channel instead of stereo left/right channels).<br />
+Default is <code>0</code>. Can be set in SB04.ini with <code>ForceMono</code>.</td>
+</tr>
+<td>Initial Unused Upgrade Points</td>
+<td>Number of initial upgrade points the player has..<br />
+Default is <code>0</code>. Can be set in SB04.ini with <code>G.UnusedSkillPoints</code>.</td>
+</tr>
+<tr>
 <td>Bowl Electricity Effect Active</td>
 <td>Whether the electricity effect is active during the upgraded sponge bowl's explode animation.</td>
 </tr>
