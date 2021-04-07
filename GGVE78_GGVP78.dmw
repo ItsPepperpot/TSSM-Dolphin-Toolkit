@@ -676,6 +676,14 @@
         {
             "groupEntries": [
                 {
+                    "address": "804AE194",
+                    "baseIndex": 0,
+                    "label": "Boot HIP File",
+                    "length": 16,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
                     "address": "804AE223",
                     "baseIndex": 0,
                     "label": "Vibration Enabled",
@@ -686,6 +694,41 @@
                     "address": "804AE238",
                     "baseIndex": 0,
                     "label": "Music Disabled",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AE239",
+                    "baseIndex": 0,
+                    "label": "Cutscenes Disabled",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AE23A",
+                    "baseIndex": 0,
+                    "label": "Pad Check Disabled",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AE24F",
+                    "baseIndex": 0,
+                    "label": "Asynchronous Loading Screen",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AFE6F",
+                    "baseIndex": 0,
+                    "label": "Movies Disabled",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AE242",
+                    "baseIndex": 0,
+                    "label": "Force Mono",
                     "typeIndex": 0,
                     "unsigned": true
                 },
