@@ -1,22 +1,28 @@
 # TSSM-Dolphin-Watchlist
+
 Dolphin memory watch files for The SpongeBob SquarePants Movie. They label notable memory addresses which may be useful for debugging and speedrunning strat hunting/practice.
 
 Memory locations vary depending which version of the game is used; I plan to update the repository with more versions.
 
 Example use cases:
+
 - Practising two-frame token warps by reading the Token Count (token counter increments when the loading screen appears after warping)
+
 - Practising one-frame damage boosts by locking Patrick/SpongeBob's health in the memory engine.
 
 ## How to Use
+
 1. Download [Dolphin Memory Engine](https://github.com/aldelaro5/Dolphin-memory-engine/releases)
 2. Clone/download this repository.
 3. In Dolphin Memory Engine, go to `File > Open` and open the correct .dmw for your game ID.
 
 If you don't know your game ID:
+
 - NTSC (English): `GGVE78`
 - PAL (English): `GGVP78`
 - PAL (Deutsch): `GGVD78`
 - PAL (Français/Nederlands): `GGVX78`
+
 4. Open the game in Dolphin.
 
 ## Memory Address Descriptions
@@ -663,6 +669,23 @@ Default is <code>0</code>. Can be set in SB04.ini with <code>NoPadCheck</code>.<
 <td>Controls whether the loading screen is synchronous.<br />
 Default is <code>1</code>. Can be set in SB04.ini with <code>AsyncLoadingScreen</code>. Setting to <code>0</code> will prevent loading screens appearing while a level is loading.</td>
 </tr>
+<tr>
+<td>Attract Mode During Gameplay</td>
+<td>Whether the game will show the attract mode promo during gameplay. If enabled, the game will exit to the title screen after 45 seconds of no controller inputs.<br />
+Default is <code>0</code>. Can be set in SB04.ini with <code>G.AttractModeDuringGameplay</code>.</td>
+</tr>
+<tr>
+<td>Attract Mode Gameplay Timer</td>
+<td>If Attract Mode During Gameplay is <code>1</code>, this timer will decrease from 45 to 0 upon which the game will reset to the title screen.</td>
+</tr>
+<tr>
+<td>Attract Mode Title Screen Timer</td>
+<td>The "attract mode" promo timer for the title screen. Decreases from 45 to 0 upon which the game will play the movie "SBAttr.bik".</td>
+</tr>
+<tr>
+<td>Attract Mode Timer Length</td>
+<td>The length of the timer (in seconds) for both the gameplay and title screen attract mode timers.<br />Default is <code>45</code>.</td>
+</tr>
 <td>Movies Disabled</td>
 <td>Whether the movies are disabled.<br />
 Movies include .bik files in the folder FMV (e.g. story cutscenes, ability upgrade and studio logos videos).
@@ -672,8 +695,19 @@ Default is <code>0</code>. Can be set in SB04.ini with <code>NoMovies</code>.</t
 <td>Whether the audio is in mono (i.e. one audio channel instead of stereo left/right channels).<br />
 Default is <code>0</code>. Can be set in SB04.ini with <code>ForceMono</code>.</td>
 </tr>
+<tr>
+<td>Initial Manliness Points</td>
+<td>Number of initial manliness points the player has.<br />
+Default is <code>0</code>. Can be set in SB04.ini with <code>G.InitialShinyCount</code>.</td>
+</tr>
+<tr>
+<td>Initial Token Count</td>
+<td>Number of initial Goofy Goober tokens the player has.<br />
+Default is <code>0</code>. Can be set in SB04.ini with <code>G.InitialSpatulaCount</code>.</td>
+</tr>
+<tr>
 <td>Initial Unused Upgrade Points</td>
-<td>Number of initial upgrade points the player has..<br />
+<td>Number of initial upgrade points the player has.<br />
 Default is <code>0</code>. Can be set in SB04.ini with <code>G.UnusedSkillPoints</code>.</td>
 </tr>
 <tr>
@@ -692,5 +726,6 @@ Default is <code>0</code>. Can be set in SB04.ini with <code>G.UnusedSkillPoints
 </table>
 
 ## TODO
+
 - Find player x,y,z location (not static addresses), part of PLYR asset?
 - Boss healths
