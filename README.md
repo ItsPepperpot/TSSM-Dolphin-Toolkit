@@ -179,6 +179,127 @@ Can be set in SB04.ini with <code>G.HealthSB</code>. While usually capped at 3 i
 Can be set in SB04.ini with <code>G.HealthPat</code>.</td>
 </tr>
 <tr>
+<th colspan="2">Manliness Point Values</th>
+</tr>
+<tr>
+<td>Purple Manliness Value</td>
+<td>The value of a purple manliness point.<br />
+Default is <code>50</code>, can be set in SB04.ini with <code>G.ShinyValuePurple</code>.
+</td>
+</tr>
+<tr>
+<td>Blue Manliness Value</td>
+<td>The value of a blue manliness point.<br />
+Default is <code>10</code>, can be set in SB04.ini with <code>G.ShinyValueBlue</code>.</td>
+</tr>
+<tr>
+<td>Green Manliness Value</td>
+<td>The value of a green manliness point.<br />
+Default is <code>5</code>, can be set in SB04.ini with <code>G.ShinyValueGreen</code>.</td>
+</tr>
+<tr>
+<td>Yellow Manliness Value</td>
+<td>The value of a yellow manliness point.<br />
+Default is <code>2</code>, can be set in SB04.ini with <code>G.ShinyValueYellow</code>.</td>
+</tr>
+<tr>
+<td>Red Manliness Value</td>
+<td>The value of a red manliness point.<br />
+Default is <code>1</code>, can be set in SB04.ini with <code>G.ShinyValueRed</code>.</td>
+</tr>
+<tr>
+<th colspan="2">Upgrade Manliness Requirements</th>
+</tr>
+<tr>
+<td colspan="2">The manliness points required to gain the next upgrade point. The values in memory are cumulative (250, 1500, 3000, ..., 35000) whereas the values set in SB04.ini are incremental (250, 1250, 1500, ..., 4000).</td>
+</tr>
+<tr>
+<td>Upgrades 1-14</td>
+<td>
+<table>
+<thead>
+<tr>
+<th>Watch Name</th>
+<th>Normal Value</th>
+<th>SB04.ini</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Upgrade 1</td>
+<td>250</td>
+<td><code>Upgrade1 = 250</code></td>
+</tr>
+<tr>
+<td>Upgrade 2</td>
+<td>1500</td>
+<td><code>Upgrade2 = 1250</code></td>
+</tr>
+<tr>
+<td>Upgrade 3</td>
+<td>3000</td>
+<td><code>Upgrade3 = 1500</code></td>
+</tr>
+<tr>
+<td>Upgrade 4</td>
+<td>5000</td>
+<td><code>Upgrade4 = 2000</code></td>
+</tr>
+<tr>
+<td>Upgrade 5</td>
+<td>7000</td>
+<td><code>Upgrade5 = 2000</code></td>
+</tr>
+<tr>
+<td>Upgrade 6</td>
+<td>9000</td>
+<td><code>Upgrade6 = 2000</code></td>
+</tr>
+<tr>
+<td>Upgrade 7</td>
+<td>11000</td>
+<td><code>Upgrade7 = 2000</code></td>
+</tr>
+<tr>
+<td>Upgrade 8</td>
+<td>14000</td>
+<td><code>Upgrade8 = 3000</code></td>
+</tr>
+<tr>
+<td>Upgrade 9</td>
+<td>17000</td>
+<td><code>Upgrade9 = 3000</code></td>
+</tr>
+<tr>
+<td>Upgrade 10</td>
+<td>20000</td>
+<td><code>Upgrade10 = 3000</code></td>
+</tr>
+<tr>
+<td>Upgrade 11</td>
+<td>23000</td>
+<td><code>Upgrade11 = 3000</code></td>
+</tr>
+<tr>
+<td>Upgrade 12</td>
+<td>27000</td>
+<td><code>Upgrade12 = 4000</code></td>
+</tr>
+<tr>
+<td>Upgrade 13</td>
+<td>31000</td>
+<td><code>Upgrade13 = 4000</code></td>
+</tr>
+<tr>
+<td>Upgrade 14</td>
+<td>35000</td>
+<td><code>Upgrade14 = 4000</code></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
 <th colspan="2">Health</th>
 </tr>
 <tr>
