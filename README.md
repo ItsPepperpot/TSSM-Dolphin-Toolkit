@@ -537,11 +537,11 @@ Default is <code>40</code>. Can be set in SB04.ini with <code>WatermarkSize</cod
 <th colspan="2">TEXT Variables</th>
 </tr>
 <tr>
-<td colspan="2">Strings that can be used in TEXT assets. Can be used with <code>{var:VariableName}</code>. Many are used by UI elements in-game. Note that, in memory, these strings are all empty by default and only update when queried. TODO: Add descriptions here</td>
+<td colspan="2">Strings that can be used in TEXT assets. Can be used with <code>{var:VariableName}</code>. Many are used by UI elements in-game. Note that, in memory, these strings are all empty by default and only update when queried. TODO: Add screenshots</td>
 </tr>
 <tr>
 <td>BadCard</td>
-<td></td>
+<td>Erroneous memory card, used for warning messages on game boot (e.g. if the memory card is corrupt, has no space remaining etc.)</td>
 </tr>
 <tr>
 <td>BadCardAvailable</td>
@@ -549,51 +549,57 @@ Default is <code>40</code>. Can be set in SB04.ini with <code>WatermarkSize</cod
 </tr>
 <tr>
 <td>BadCardNeeded</td>
-<td></td>
+<td>Space required to save a game file (used when displaying the warning message on boot when the memory card is erroneous).</td>
 </tr>
 <tr>
 <td>GameSlot0</td>
-<td></td>
+<td>Status of game save file slot 0.<br/ >
+Contains game completion %, date saved, save file size in blocks and last level, e.g. :<br />
+<pre>
+"0%  04/04/21    (9 Blocks)
+I'm Ready... Depression"
+</pre>
+Will be "Empty" if nothing in the save slot.</td>
 </tr>
 <tr>
 <td>GameSlot1</td>
-<td></td>
+<td>Status of game save file slot 1.</td>
 </tr>
 <tr>
 <td>GameSlot2</td>
-<td></td>
+<td>Status of game save file slot 2.</td>
 </tr>
 <tr>
 <td>GameSlot3</td>
-<td></td>
+<td>Status of game save file slot 3.</td>
 </tr>
 <tr>
 <td>GameSlot4</td>
-<td></td>
+<td>Status of game save file slot 4.</td>
 </tr>
 <tr>
 <td>GameSlot5</td>
-<td></td>
+<td>Status of game save file slot 5.</td>
 </tr>
 <tr>
 <td>GameSlot6</td>
-<td></td>
+<td>Status of game save file slot 6.</td>
 </tr>
 <tr>
 <td>GameSlot7</td>
-<td></td>
+<td>Status of game save file slot 7.</td>
 </tr>
 <tr>
 <td>SpaceAvailable</td>
-<td></td>
+<td>Number of blocks available on the memory card (in the smallest available slot?)</td>
 </tr>
 <tr>
 <td>SpaceAvailableString</td>
-<td></td>
+<td>Unsure, same as SpaceAvailable?</td>
 </tr>
 <tr>
 <td>SpaceNeeded</td>
-<td></td>
+<td>Space required to save game?</td>
 </tr>
 <tr>
 <td>MCMaxSpace</td>
@@ -605,39 +611,39 @@ Default is <code>40</code>. Can be set in SB04.ini with <code>WatermarkSize</cod
 </tr>
 <tr>
 <td>ActivePad</td>
-<td></td>
+<td>Unsure (Active Controller slot?)</td>
 </tr>
 <tr>
 <td>CurrentDate</td>
-<td></td>
+<td>The current date, e.g. "Sunday April 4, 2021"</td>
 </tr>
 <tr>
 <td>CurrentTime</td>
-<td></td>
+<td>The current time, e.g. "1:18:03 P.M."</td>
 </tr>
 <tr>
 <td>PlayerPosition</td>
-<td></td>
+<td>The player's position in the format x, y, z with the decimal part removed (i.e. coordinates are floored).</td>
 </tr>
 <tr>
 <td>SoundMusicVolume</td>
-<td></td>
+<td>Music volume, 0-10.</td>
 </tr>
 <tr>
 <td>SoundFXVolume</td>
-<td></td>
+<td>Sound effects volume, 0-10.</td>
 </tr>
 <tr>
 <td>NumChestsNeeded</td>
-<td></td>
+<td>The number of treasure chests required to unlock the next extra. Updates when opening the Extras menu.</td>
 </tr>
 <tr>
 <td>NumChestsCurrentLevel</td>
-<td></td>
+<td>Number of treasure chests collected in the currently selected level. Updates while scrolling through levels in pause menu.</td>
 </tr>
 <tr>
 <td>NumChestsTotalCurrentLevel</td>
-<td></td>
+<td>Total number of treasure chests in the currently selected level. Updates while scrolling through levels in pause menu.</td>
 </tr>
 <tr>
 <th colspan="2">Miscellaneous</th>
