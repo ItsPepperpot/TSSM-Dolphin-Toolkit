@@ -883,28 +883,28 @@
                 {
                     "address": "804AE56D",
                     "baseIndex": 0,
-                    "label": "Attract Mode Enabled",
+                    "label": "Attract Mode During Gameplay",
                     "typeIndex": 0,
                     "unsigned": true
                 },
                 {
                     "address": "804B0D14",
                     "baseIndex": 0,
-                    "label": "Attract Mode Timer",
+                    "label": "Attract Mode Gameplay Timer",
                     "typeIndex": 3,
                     "unsigned": true
                 },
                 {
                     "address": "804B0DC8",
                     "baseIndex": 0,
-                    "label": "Title Screen Promo Timer",
+                    "label": "Attract Mode Title Screen Timer",
                     "typeIndex": 3,
                     "unsigned": true
                 },
                 {
                     "address": "804B2B34",
                     "baseIndex": 0,
-                    "label": "Attract Mode/Promo Timer Length",
+                    "label": "Attract Mode Timer Length",
                     "typeIndex": 3,
                     "unsigned": true
                 },
