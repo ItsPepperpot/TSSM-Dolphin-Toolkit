@@ -357,6 +357,10 @@ Default is <code>1</code>, can be set in SB04.ini with <code>G.ShinyValueRed</co
 <th colspan="2">Movement</th>
 </tr>
 <tr>
+<td>Gravity</td>
+<td>The gravity for all players.<br />Default is <code>30</code>, can be set in SB04.ini with <code>G.Gravity</code>.</td>
+</tr>
+<tr>
 <td>SB Min Walk Speed</td>
 <td>SpongeBob's minimum walk speed. Normally <code>0.6</code>.</td>
 </tr>
@@ -491,6 +495,13 @@ Can be set in SB04.ini with <code>G.DamageTimeHit</code>.</td>
 <tr>
 <td>Sound Effects Volume</td>
 <td>The setting for sound effects volume.</td>
+</tr>
+<tr>
+<th colspan="2">Cheat Codes</th>
+</tr>
+<tr>
+<td>Num of Inputs Entered</td>
+<td>The number of inputs entered when entering a cheat code.<br />Resets to <code>0</code> if more than 33 inputs are entered.</td>
 </tr>
 <tr>
 <th colspan="2">Watermark</th>
