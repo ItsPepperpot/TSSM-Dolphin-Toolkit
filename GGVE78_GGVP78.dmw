@@ -140,6 +140,149 @@
         {
             "groupEntries": [
                 {
+                    "address": "804AE424",
+                    "baseIndex": 0,
+                    "label": "Purple Manliness Value",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE428",
+                    "baseIndex": 0,
+                    "label": "Blue Manliness Value",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE42C",
+                    "baseIndex": 0,
+                    "label": "Green Manliness Value",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE430",
+                    "baseIndex": 0,
+                    "label": "Yellow Manliness Value",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "804AE434",
+                    "baseIndex": 0,
+                    "label": "Red Manliness Value",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Manliness Point Values"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80488E98",
+                    "baseIndex": 0,
+                    "label": "Upgrade 1",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488E9C",
+                    "baseIndex": 0,
+                    "label": "Upgrade 2",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488EA0",
+                    "baseIndex": 0,
+                    "label": "Upgrade 3",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488EA4",
+                    "baseIndex": 0,
+                    "label": "Upgrade 4",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488EA8",
+                    "baseIndex": 0,
+                    "label": "Upgrade 5",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488EAC",
+                    "baseIndex": 0,
+                    "label": "Upgrade 6",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488EB0",
+                    "baseIndex": 0,
+                    "label": "Upgrade 7",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488EB4",
+                    "baseIndex": 0,
+                    "label": "Upgrade 8",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488EB8",
+                    "baseIndex": 0,
+                    "label": "Upgrade 9",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488EBC",
+                    "baseIndex": 0,
+                    "label": "Upgrade 10",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488EC0",
+                    "baseIndex": 0,
+                    "label": "Upgrade 11",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488EC4",
+                    "baseIndex": 0,
+                    "label": "Upgrade 12",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488EC8",
+                    "baseIndex": 0,
+                    "label": "Upgrade 13",
+                    "typeIndex": 2,
+                    "unsigned": false
+                },
+                {
+                    "address": "80488ECC",
+                    "baseIndex": 0,
+                    "label": "Upgrade 14",
+                    "typeIndex": 2,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Upgrade Manliness Requirements"
+        },
+        {
+            "groupEntries": [
+                {
                     "address": "804AEE53",
                     "baseIndex": 0,
                     "label": "Patrick Health",
@@ -233,6 +376,13 @@
         },
         {
             "groupEntries": [
+                {
+                    "address": "804AE4B8",
+                    "baseIndex": 0,
+                    "label": "Gravity",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
                 {
                     "address": "804AE584",
                     "baseIndex": 0,
@@ -333,10 +483,10 @@
                     "unsigned": false
                 },
                 {
-                    "address": "804AF836",
+                    "address": "804AF834",
                     "baseIndex": 0,
                     "label": "Manliness Points",
-                    "typeIndex": 1,
+                    "typeIndex": 2,
                     "unsigned": false
                 },
                 {
@@ -440,6 +590,18 @@
                 }
             ],
             "groupName": "Options"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "804B0D53",
+                    "baseIndex": 0,
+                    "label": "Num of Inputs Entered",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Cheat Codes"
         },
         {
             "groupEntries": [
@@ -719,6 +881,34 @@
                     "unsigned": true
                 },
                 {
+                    "address": "804AE56D",
+                    "baseIndex": 0,
+                    "label": "Attract Mode Enabled",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B0D14",
+                    "baseIndex": 0,
+                    "label": "Attract Mode Timer",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B0DC8",
+                    "baseIndex": 0,
+                    "label": "Title Screen Promo Timer",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B2B34",
+                    "baseIndex": 0,
+                    "label": "Attract Mode/Promo Timer Length",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
                     "address": "804AFE6F",
                     "baseIndex": 0,
                     "label": "Movies Disabled",
@@ -729,6 +919,20 @@
                     "address": "804AE242",
                     "baseIndex": 0,
                     "label": "Force Mono",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AE41C",
+                    "baseIndex": 0,
+                    "label": "Initial Manliness Points",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AE423",
+                    "baseIndex": 0,
+                    "label": "Initial Token Count",
                     "typeIndex": 0,
                     "unsigned": true
                 },
