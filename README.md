@@ -12,7 +12,7 @@ Example use cases:
 
 ## How to Use
 
-1. Download [Dolphin Memory Engine](https://github.com/aldelaro5/Dolphin-memory-engine/releases)
+1. Download [Dolphin Memory Engine](https://github.com/aldelaro5/Dolphin-memory-engine/releases "Dolphin Memory Engine releases page")
 2. Clone/download this repository.
 3. In Dolphin Memory Engine, go to `File > Open` and open the correct .dmw for your game ID.
 
@@ -680,7 +680,12 @@ Default is <code>0</code>. Can be set in SB04.ini with <code>G.AttractModeDuring
 </tr>
 <tr>
 <td>Attract Mode Title Screen Timer</td>
-<td>The "attract mode" promo timer for the title screen. Decreases from 45 to 0 upon which the game will play the movie "SBAttr.bik".</td>
+<td>The "attract mode" promo timer for the title screen. Decreases from 45 to 0 upon which the game will play the movie "SBAttr.bik".<br />
+View promo videos: 
+
+- [English Versions (GGVE78, GGVP78)](https://www.youtube.com/watch?v=iFnq5Ik4Gj4 "Promo for English versions")
+- [Non-English Versions (GGVD78, GGVX78)](https://www.youtube.com/watch?v=rb2l9bdKriw "Promo for non-English versions")
+</td>
 </tr>
 <tr>
 <td>Attract Mode Timer Length</td>
