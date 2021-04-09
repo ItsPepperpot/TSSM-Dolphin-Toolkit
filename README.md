@@ -506,8 +506,57 @@ Can be set in SB04.ini with <code>G.DamageTimeHit</code>.</td>
 <th colspan="2">Cheat Codes</th>
 </tr>
 <tr>
+<td>Costume Cheats (Bit Field)</td>
+<td>A one-byte bit field storing the costumes enabled through cheat codes. Four different costumes are enabled through using cheat codes.<br />
+Costumes are applied when warping to a new area.<br />
+Bit 7 → Bit 0<br />
+<code>00000000</code>
+<table>
+<thead>
+<th>Bit</th><th>Costume</th>
+</thead>
+<tbody>
+<tr><td>4</td><td>Caveman costume (SpongeBob)</td><tr>
+<tr><td>3</td><td>Ripped Shorts costume (SpongeBob)</td><tr>
+<tr><td>2</td><td>Caveman costume (Patrick)</td><tr>
+<tr><td>1</td><td>Goofy Goober costume (Patrick)</td><tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>Cheat Codes (Bit Field)</td>
+<td>A two-byte bit field storing cheats enabled through cheats codes (non-costume cheats).<br />
+Note that changing these bits do not seem to instantly apply the effects of the cheat codes as other memory locations are usually changed once a valid cheat code is entered.<br />
+Bit 15 → Bit 0<br />
+<code>00000000</code> <code>00000000</code>
+<table>
+<thead>
+<th>Bit</th><th>Cheat Code</th>
+</thead>
+<tbody>
+<tr><td>15</td><td>Unlock all tasks</td><tr>
+<tr><td>14</td><td>Upgrade all moves<br />
+(Sets all the ability statuses to 2.)</td><tr>
+<tr><td>10</td><td>Double manliness points<br />
+(Sets the manliness multiplier to 2.)</td><tr>
+<tr><td>9</td><td>Unlock all moves
+(Sets all the ability statuses that are 0 to 1.)
+</td><tr>
+<tr><td>0</td><td>Unlock all 6 health slots<br/>
+(Sets the health upgrades for Patrick and SpongeBob to 3).</td><tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
 <td>Num of Inputs Entered</td>
 <td>The number of inputs entered when entering a cheat code.<br />Resets to <code>0</code> if more than 33 inputs are entered.</td>
+</tr>
+<tr>
+<td>Manliness Points Multiplier</td>
+<td>The multiplier for collected manliness points.<br />
+Default is <code>1</code>, set to <code>2</code> when the "Double manliness points" cheat code is used.</td>
 </tr>
 <tr>
 <th colspan="2">Watermark</th>
