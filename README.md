@@ -516,10 +516,10 @@ Bit 7 → Bit 0<br />
 <th>Bit</th><th>Costume</th>
 </thead>
 <tbody>
-<tr><td>4</td><td>Caveman costume (SpongeBob)</td><tr>
-<tr><td>3</td><td>Ripped Shorts costume (SpongeBob)</td><tr>
-<tr><td>2</td><td>Caveman costume (Patrick)</td><tr>
-<tr><td>1</td><td>Goofy Goober costume (Patrick)</td><tr>
+<tr><td>4</td><td>Caveman costume (SpongeBob)</td></tr>
+<tr><td>3</td><td>Ripped Shorts costume (SpongeBob)</td></tr>
+<tr><td>2</td><td>Caveman costume (Patrick)</td></tr>
+<tr><td>1</td><td>Goofy Goober costume (Patrick)</td></tr>
 </tbody>
 </table>
 Caveman costumes appear to take priority for both characters if more than one costume is enabled.
@@ -536,16 +536,16 @@ Bit 15 → Bit 0<br />
 <th>Bit</th><th>Cheat Code</th>
 </thead>
 <tbody>
-<tr><td>15</td><td>Unlock all tasks</td><tr>
+<tr><td>15</td><td>Unlock all tasks</td></tr>
 <tr><td>14</td><td>Upgrade all moves<br />
-(Sets all the ability statuses to 2.)</td><tr>
+(Sets all the ability statuses to 2.)</td></tr>
 <tr><td>10</td><td>Double manliness points<br />
-(Sets the manliness multiplier to 2.)</td><tr>
+(Sets the manliness multiplier to 2.)</td></tr>
 <tr><td>9</td><td>Unlock all moves
 (Sets all the ability statuses that are 0 to 1.)
-</td><tr>
+</td></tr>
 <tr><td>0</td><td>Unlock all 6 health slots<br/>
-(Sets the health upgrades for Patrick and SpongeBob to 3).</td><tr>
+(Sets the health upgrades for Patrick and SpongeBob to 3).</td></tr>
 </tbody>
 </table>
 </td>
