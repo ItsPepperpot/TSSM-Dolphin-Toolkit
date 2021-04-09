@@ -522,6 +522,7 @@ Bit 7 → Bit 0<br />
 <tr><td>1</td><td>Goofy Goober costume (Patrick)</td><tr>
 </tbody>
 </table>
+Caveman costumes appear to take priority for both characters if more than one costume is enabled.
 </td>
 </tr>
 <tr>
