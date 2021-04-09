@@ -594,11 +594,32 @@
         {
             "groupEntries": [
                 {
+                    "address": "804B0D48",
+                    "baseIndex": 3,
+                    "label": "Costumes Cheats (Bit Field)",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B0D49",
+                    "baseIndex": 3,
+                    "label": "Cheats Codes (Bit field)",
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
                     "address": "804B0D53",
                     "baseIndex": 0,
                     "label": "Num of Inputs Entered",
                     "typeIndex": 0,
                     "unsigned": true
+                },
+                {
+                    "address": "804AF838",
+                    "baseIndex": 0,
+                    "label": "Manliness Points Multiplier",
+                    "typeIndex": 2,
+                    "unsigned": false
                 }
             ],
             "groupName": "Cheat Codes"
