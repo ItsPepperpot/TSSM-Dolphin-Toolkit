@@ -1,7 +1,8 @@
 # Text Asset Variables
+
 Variables that can be used in Text assets in The SpongeBob SquarePants Movie.
 
-To see all text formatting options, visit https://battlepedia.org/TEXT
+To see all text formatting options, visit [battlepedia.org/TEXT](https://battlepedia.org/TEXT "Battlepedia page on the TEXT asset")
 <table>
 <thead>
 <tr>
@@ -203,6 +204,5 @@ Will be "Empty" if nothing in the save slot.
 <tr>
 <td>SpaceNeeded</td>
 <td>Space required to save game?</td>
-</tr>
 </tbody>
 </table>
