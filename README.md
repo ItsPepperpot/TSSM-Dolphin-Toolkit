@@ -139,7 +139,7 @@ Example use cases:
     </tr>
     <tr>
       <td>Karate Spin</td>
-      <td>Unlock/upgrade status of Karate Spin.<br /><code>0</code> = locked, <code>1</code> = unlocked, <code>2</code> = upgraded (applies to all moves below).<br />
+      <td>Unlock/upgrade status of Karate Spin.<br /><code>0</code> = locked, <code>1</code> = unlocked, <code>2</code> = upgraded (applies to all moves below). If not set in SB04, a move will default to <code>0</code>, including karate/star spin.<br />
       Can be set in SB04.ini with <code>G.KarateSpin</code>.
       </td>
     </tr>
@@ -381,16 +381,16 @@ Example use cases:
     </tr>
     <tr>
       <td>SB Max Walk Speed</td>
-      <td>SpongeBob's maximum walk speed. Normally <code>4</code>.</td>
+      <td>SpongeBob's maximum walk speed. Normally <code>4</code> as set in SB04.ini. If not set in SB04, defaults to <code>3</code>.</td>
     </tr>
     <tr>
       <td>SB Max Run Speed</td>
-      <td>SpongeBob's max running speed, i.e. top theoretical speed when the analog stick is fully deflected. Normally <code>5</code>.</td>
+      <td>SpongeBob's max running speed, i.e. top theoretical speed when the analog stick is fully deflected. Normally <code>5</code> as set in SB04.ini. If not set in SB04, defaults to <code>7</code>.</td>
     </tr>
     <tr>
       <td>SB Jump Gravity</td>
-      <td>Affects the height of SpongeBob's jumps. Normally <code>5</code>.<br />
-    Can be set in SB04.ini with <code>SB.JumpGravity</code>.</td>
+      <td>Affects the height of SpongeBob's jumps.<br />
+      Normally <code>5</code>, as set in SB04.ini with <code>SB.JumpGravity</code>. If not set in SB04, defaults to <code>7</code>.</td>
     </tr>
     <tr>
       <td>Sliding Friction (Ice Physics Glitch)</td>
