@@ -758,10 +758,10 @@ Example use cases:
       <td>Attract Mode Title Screen Timer</td>
       <td>The "attract mode" promo timer for the title screen. Decreases from 45 to 0 upon which the game will play the movie "SBAttr.bik".<br />
       View promo videos:
-      
-      - [English Versions (GGVE78, GGVP78)](https://www.youtube.com/watch?v=iFnq5Ik4Gj4 "Promo for English versions")
-      - [Non-English Versions (GGVD78, GGVX78)](https://www.youtube.com/watch?v=rb2l9bdKriw "Promo for non-English versions")
-
+      <ul>
+      <li><a href="https://www.youtube.com/watch?v=iFnq5Ik4Gj4" title="Promo for English versions">English Versions (GGVE78, GGVP78)</a></li>
+      <li><a href="https://www.youtube.com/watch?v=rb2l9bdKriw" title="Promo for non-English versions">Non-English Versions (GGVD78, GGVX78)</li>
+        </ul>
       </td>
     </tr>
     <tr>
