@@ -364,6 +364,11 @@ Example use cases:
       <td>Whether the player is standing in a warp box prior to being teleported.<br />This byte is responsible for "box state glitch", wherein you cannot take damage from enemies or goo, and you are unable to use certain abilities. You can activate the glitch by warping in a source box while the target box is unopened, or by locking this value to <code>1</code>.</td>
     </tr>
     <tr>
+      <td>Player is Bouncing Off Goo</td>
+      <td>Whether the player is bouncing off goo.<br />If goo is touched while this is <code>1</code>, the player will drown.
+      </td>
+    </tr>
+    <tr>
       <th colspan="2">Movement</th>
     </tr>
     <tr>
@@ -456,6 +461,15 @@ Example use cases:
     </tr>
     <tr>
       <th colspan="2">Camera</th>
+    </tr>
+    <tr>
+      <td>Camera Pitch Scale</td>
+      <td>The scale for pitching the camera up/down.<br />Default is <code>0.77</code>, can be set in SB04.ini with <code>zcam_pad_pitch_scale</code>.</td>
+    </tr>
+    <tr>
+      <td>Camera Yaw Scale</td>
+      <td>The scale for yawing the camera around the player.<br />
+      Default is <code>0.18</code>, higher values move the camera faster. Can be set in SB04.ini with <code>zcam_pad_pyaw_scale</code>.</td>
     </tr>
     <tr>
       <td>Camera is Zoomed In</td>
@@ -793,6 +807,31 @@ Example use cases:
       Default is <code>0</code>. Can be set in SB04.ini with <code>G.UnusedSkillPoints</code>.</td>
     </tr>
     <tr>
+      <td>Sonic Wave Time Remaining</td>
+      <td>The number of seconds remaining the Sonic Wave guitar has.<br />
+      Reset to <code>6</code> when using Sonic Wave.</td>
+    </tr>
+    <tr>
+      <td>Flythrough Minimum Skip Time</td>
+      <td>The minimum number of seconds before the player can skip a flythrough.<br />
+      Default is <code>1.0</code>, can be set in SB04.ini with <code>gSkipTimeFlythrough</code>.</td>
+    </tr>
+    <tr>
+      <td>Cutscene Minimum Skip Time</td>
+      <td>The minimum number of seconds before the player can skip a cutscene.<br />
+      Default is <code>1.0</code>, can be set in SB04.ini with <code>gSkipTimeCutscene</code>.</td>
+    </tr>
+    <tr>
+      <td>Cutscene Letterbox Alpha</td>
+      <td>The alpha (opacity) of the letterboxes shown during in-engine cutscenes.<br />
+      Default is <code>255</code> (fully opaque), can be set in SB04.ini with <code>ScrFxLetterBoxAlpha</code>.</td>
+    </tr>
+    <tr>
+      <td>Shortbread Cookie Jar</td>
+      <td>Unsure (perhaps used for debugging?)<br />
+      Default is <code>2.0</code>, can be set in SB04.ini with <code>ShortbreadCookieJar</code>.</td>
+    </tr>
+    <tr>
       <td>Bowl Electricity Effect Active</td>
       <td>Whether the electricity effect is active during the upgraded sponge bowl's explode animation.</td>
     </tr>
@@ -803,6 +842,18 @@ Example use cases:
     <tr>
       <td>Bowl Warping Effect Active</td>
       <td>Whether the warping effect is active during the upgraded sponge bowl's explode animation. <br />While normally <code>1</code> during explosion, it can be <code>0</code> if the ball explodes behind the camera or in a place where the ball isn't visible.</td>
+    </tr>
+    <tr>
+      <td>Bowl Praxis X Position</td>
+      <td>The X coordinate of the praxis effect that appears during upgrade bowl's explode animation.</td>
+    </tr>
+    <tr>
+      <td>Bowl Praxis Y Position</td>
+      <td>The Y coordinate of the praxis effect that appears during upgrade bowl's explode animation.</td>
+    </tr>
+    <tr>
+      <td>Bowl Praxis Z Position</td>
+      <td>The Z coordinate of the praxis effect that appears during upgrade bowl's explode animation.</td>
     </tr>
   </tbody>
 </table>

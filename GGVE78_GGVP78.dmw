@@ -370,6 +370,13 @@
                     "label": "Player Is Spinning",
                     "typeIndex": 0,
                     "unsigned": false
+                },
+                {
+                    "address": "804B1117",
+                    "baseIndex": 0,
+                    "label": "Player is Bouncing Off Goo",
+                    "typeIndex": 0,
+                    "unsigned": true
                 }
             ],
             "groupName": "Player States"
@@ -508,6 +515,20 @@
         },
         {
             "groupEntries": [
+                {
+                    "address": "804B00C4",
+                    "baseIndex": 0,
+                    "label": "Camera Yaw Scale",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B00C8",
+                    "baseIndex": 0,
+                    "label": "Camera Pitch Scale",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
                 {
                     "address": "804B0AC7",
                     "baseIndex": 0,
@@ -965,6 +986,41 @@
                     "unsigned": true
                 },
                 {
+                    "address": "8040418C",
+                    "baseIndex": 0,
+                    "label": "Sonic Wave Time Remaining",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B04AC",
+                    "baseIndex": 0,
+                    "label": "Flythrough Minimum Skip Time",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B04A8",
+                    "baseIndex": 0,
+                    "label": "Cutscene Minimum Skip Time",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B0450",
+                    "baseIndex": 0,
+                    "label": "Cutscene Letterbox Alpha",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B19B0",
+                    "baseIndex": 0,
+                    "label": "Shortbread Cookie Jar",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
                     "address": "804B12DC",
                     "baseIndex": 0,
                     "label": "Bowl Aura Effect Active",
@@ -984,6 +1040,27 @@
                     "label": "Bowl Warping Effect Active",
                     "typeIndex": 0,
                     "unsigned": true
+                },
+                {
+                    "address": "8049E8F8",
+                    "baseIndex": 0,
+                    "label": "Bowl Praxis X Position",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8049E8FC",
+                    "baseIndex": 0,
+                    "label": "Bowl Praxis Y Position",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "8049E900",
+                    "baseIndex": 0,
+                    "label": "Bowl Praxis Z Position",
+                    "typeIndex": 3,
+                    "unsigned": false
                 }
             ],
             "groupName": "Miscellaneous"
