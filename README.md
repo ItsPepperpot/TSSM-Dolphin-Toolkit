@@ -827,6 +827,12 @@ Example use cases:
       Default is <code>255</code> (fully opaque), can be set in SB04.ini with <code>ScrFxLetterBoxAlpha</code>.</td>
     </tr>
     <tr>
+    <td>Framerate Limiter</td>
+      <td>Limits the framerate. Value is a divisor for the max framerate.<br />
+      In most levels it is <code>1</code>, though it is <code>2</code> in Bubble Blowing Baby Hunt, Google-Eyes and Smelly Knick Knacks, and all the driving levels.
+      Exiting to the main menu will not reset the value so if you leave one of these levels, the main menu will remain in 25/30fps.</td>
+    </tr>
+    <tr>
       <td>Shortbread Cookie Jar</td>
       <td>Unsure (perhaps used for debugging?)<br />
       Default is <code>2.0</code>, can be set in SB04.ini with <code>ShortbreadCookieJar</code>.</td>
