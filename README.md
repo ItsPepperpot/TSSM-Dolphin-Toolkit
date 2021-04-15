@@ -1,4 +1,4 @@
-# TSSM-Dolphin-Watchlist
+# TSSM-Dolphin-Toolkit
 
 Dolphin memory watch files for The SpongeBob SquarePants Movie. They label notable memory addresses which may be useful for debugging and speedrunning strat hunting/practice.
 
