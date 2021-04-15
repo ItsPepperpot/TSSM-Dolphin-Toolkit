@@ -377,6 +377,20 @@
                     "label": "Player is Bouncing Off Goo",
                     "typeIndex": 0,
                     "unsigned": true
+                },
+                {
+                    "address": "804B036B",
+                    "baseIndex": 0,
+                    "label": "SB Damage Animation",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804B120F",
+                    "baseIndex": 0,
+                    "label": "Patrick Damage Animation",
+                    "typeIndex": 0,
+                    "unsigned": false
                 }
             ],
             "groupName": "Player States"
@@ -419,6 +433,13 @@
                     "unsigned": true
                 },
                 {
+                    "address": "804AE640",
+                    "baseIndex": 0,
+                    "label": "SB Walljump Velocity",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
                     "address": "804AF368",
                     "baseIndex": 0,
                     "label": "Sliding Friction (Ice Physics Glitch)",
@@ -427,6 +448,46 @@
                 }
             ],
             "groupName": "Movement"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "804AF428",
+                    "baseIndex": 0,
+                    "label": "Minimum Pickup Distance",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AF42C",
+                    "baseIndex": 0,
+                    "label": "Maximum Pickup Distance",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AF430",
+                    "baseIndex": 0,
+                    "label": "Min Pickup Height",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AF434",
+                    "baseIndex": 0,
+                    "label": "Max Pickup Height",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AF4AC",
+                    "baseIndex": 0,
+                    "label": "Fruit Carry Lifetime",
+                    "typeIndex": 3,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Patrick Pickup/Carry/Throw"
         },
         {
             "groupEntries": [
@@ -589,6 +650,19 @@
         {
             "groupEntries": [
                 {
+                    "address": "8041F69C",
+                    "baseIndex": 0,
+                    "label": "Time Challenge Timer String",
+                    "length": 4,
+                    "typeIndex": 5,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Time Challenges"
+        },
+        {
+            "groupEntries": [
+                {
                     "address": "804B0C27",
                     "baseIndex": 0,
                     "label": "Rumble Feature",
@@ -627,6 +701,13 @@
                     "label": "Cheats Codes (Bit field)",
                     "typeIndex": 1,
                     "unsigned": false
+                },
+                {
+                    "address": "804B0D4C",
+                    "baseIndex": 0,
+                    "label": "Time Remaining for Next Input",
+                    "typeIndex": 3,
+                    "unsigned": true
                 },
                 {
                     "address": "804B0D53",
@@ -1014,9 +1095,23 @@
                     "unsigned": true
                 },
                 {
+                    "address": "804B0889",
+                    "baseIndex": 0,
+                    "label": "Framerate Limiter",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
                     "address": "804B19B0",
                     "baseIndex": 0,
                     "label": "Shortbread Cookie Jar",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B1228",
+                    "baseIndex": 0,
+                    "label": "Bowl Throw Strength",
                     "typeIndex": 3,
                     "unsigned": true
                 },
@@ -1064,6 +1159,55 @@
                 }
             ],
             "groupName": "Miscellaneous"
+        },
+        {
+            "address": "803E9708",
+            "baseIndex": 0,
+            "label": "Speed (Z)?",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "80404F80",
+            "baseIndex": 0,
+            "label": "Speed (Global X)?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "80404F84",
+            "baseIndex": 0,
+            "label": "Speed (Global Y)?",
+            "typeIndex": 3,
+            "unsigned": false
+        },
+        {
+            "address": "80404F88",
+            "baseIndex": 0,
+            "label": "Speed (Global Z)?",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "8048D268",
+            "baseIndex": 0,
+            "label": "Stick Deflection In Range (0-1)?",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "8048D26C",
+            "baseIndex": 0,
+            "label": "Main Stick Angle (Rad)?",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "804B0304",
+            "baseIndex": 0,
+            "label": "Current Max Speed",
+            "typeIndex": 3,
+            "unsigned": true
         }
     ]
 }
