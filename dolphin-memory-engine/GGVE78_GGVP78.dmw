@@ -1159,55 +1159,6 @@
                 }
             ],
             "groupName": "Miscellaneous"
-        },
-        {
-            "address": "803E9708",
-            "baseIndex": 0,
-            "label": "Speed (Z)?",
-            "typeIndex": 3,
-            "unsigned": true
-        },
-        {
-            "address": "80404F80",
-            "baseIndex": 0,
-            "label": "Speed (Global X)?",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "80404F84",
-            "baseIndex": 0,
-            "label": "Speed (Global Y)?",
-            "typeIndex": 3,
-            "unsigned": false
-        },
-        {
-            "address": "80404F88",
-            "baseIndex": 0,
-            "label": "Speed (Global Z)?",
-            "typeIndex": 3,
-            "unsigned": true
-        },
-        {
-            "address": "8048D268",
-            "baseIndex": 0,
-            "label": "Stick Deflection In Range (0-1)?",
-            "typeIndex": 3,
-            "unsigned": true
-        },
-        {
-            "address": "8048D26C",
-            "baseIndex": 0,
-            "label": "Main Stick Angle (Rad)?",
-            "typeIndex": 3,
-            "unsigned": true
-        },
-        {
-            "address": "804B0304",
-            "baseIndex": 0,
-            "label": "Current Max Speed",
-            "typeIndex": 3,
-            "unsigned": true
         }
     ]
 }
