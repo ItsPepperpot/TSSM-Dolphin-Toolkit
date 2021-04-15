@@ -1,8 +1,8 @@
 # TSSM-Dolphin-Toolkit
 
-Dolphin memory watch files for The SpongeBob SquarePants Movie. They label notable memory addresses which may be useful for debugging and speedrunning strat hunting/practice.
+A toolset of useful Dolphin utilities for The SpongeBob SquarePants Movie, aimed to be used by speedrunners and TAS creators. It contains .dmw files that label notable memory addresses, useful for debugging and speedrunning strat hunting/practice.
 
-Memory locations vary depending which version of the game is used; I plan to update the repository with more versions.
+Also included are various Lua scripts for Dolphin Lua Core, allowing TAS creators to create their runs easier and practice scripts for speedrunners.
 
 Example use cases:
 
@@ -12,7 +12,9 @@ Example use cases:
 
 ## How to Use
 
-1. Download [Dolphin Memory Engine](https://github.com/aldelaro5/Dolphin-memory-engine/releases "Dolphin Memory Engine releases page")
+### Dolphin Memory Engine
+
+1. Download [Dolphin Memory Engine](https://github.com/aldelaro5/Dolphin-memory-engine/releases "Dolphin Memory Engine releases page").
 2. Clone/download this repository.
 3. In Dolphin Memory Engine, go to `File > Open` and open the correct .dmw for your game ID.
 
@@ -24,6 +26,18 @@ Example use cases:
    - PAL (Français/Nederlands): `GGVX78`
 
 4. Open the game in Dolphin.
+
+### Dolphin Lua Core
+
+1. Download [Dolphin Lua Core](https://github.com/SwareJonge/Dolphin-Lua-Core/releases "Dolphin Lua Core releases page"). Add a blank text file called `example.txt` if you would like it to ignore your Dolphin settings (useful if you have other Dolphin installations).
+2. Clone/download this repository.
+3. Drag the contents of `dolphin-lua-core` into the folder where Dolphin Lua Core is located.
+4. To enable a script, first open the game in Dolphin. Go to `Tools > Execute Script` and select the script you would like to use. If you would like a script to run automatically, add an underscore to the beginning of the script filename.
+
+## Script Descriptions
+
+- `TSSM_Core`: Contains the core functions that retrieve and write data to memory, used by the other scripts. No need to run this automatically.
+- `TSSM_Oneframe_Practice`: Allows the user to practice "one-frame" jumps for both SpongeBob and Patrick, showing them how many frame early/late that the jump button is pressed. Currently only works on NTSC in 60fps levels.
 
 ## Memory Address Descriptions
 
