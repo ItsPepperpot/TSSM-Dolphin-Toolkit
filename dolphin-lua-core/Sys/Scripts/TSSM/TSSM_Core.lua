@@ -15,6 +15,54 @@ local function gameIsTSSM()
 end
 core.gameIsTSSM = gameIsTSSM
 
+--- returns the Patty Wagon X velocity
+local function getPattyWagonXVelocity()
+    if core.game_ID == "GGVE78" or core.game_ID == "GGVP78" then
+        return ReadValueFloat(0x80406908)
+    elseif core.game_ID == "GGVD78" then
+        return 0
+    end
+    -- GGVX78
+    return 0
+end
+core.getPattyWagonXVelocity = getPattyWagonXVelocity
+
+--- returns the Patty Wagon Y velocity
+local function getPattyWagonYVelocity()
+    if core.game_ID == "GGVE78" or core.game_ID == "GGVP78" then
+        return ReadValueFloat(0x8040690C)
+    elseif core.game_ID == "GGVD78" then
+        return 0
+    end
+    -- GGVX78
+    return 0
+end
+core.getPattyWagonYVelocity = getPattyWagonYVelocity
+
+--- returns the Patty Wagon Z velocity
+local function getPattyWagonZVelocity()
+    if core.game_ID == "GGVE78" or core.game_ID == "GGVP78" then
+        return ReadValueFloat(0x80406910)
+    elseif core.game_ID == "GGVD78" then
+        return 0
+    end
+    -- GGVX78
+    return 0
+end
+core.getPattyWagonZVelocity = getPattyWagonZVelocity
+
+-- returns the Patty Wagon's nitro count
+local function getNitroCount()
+    if core.game_ID == "GGVE78" or core.game_ID == "GGVP78" then
+        return ReadValue8(0x80406DBF)
+    elseif core.game_ID == "GGVD78" then
+        return 0
+    end
+    -- GGVX78
+    return 0
+end
+core.getNitroCount = getNitroCount
+
 --- returns the current Goofy Goober token count
 local function getTokenCount()
     if core.game_ID == "GGVE78" or core.game_ID == "GGVP78" then
