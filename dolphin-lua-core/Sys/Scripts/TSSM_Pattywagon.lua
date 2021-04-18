@@ -27,6 +27,7 @@ function onScriptUpdate()
     text = text .. string.format("Z Velocity: %.6f\n", z_vel)
     text = text .. string.format("Total Speed (ignoring Y): %.6f\n", speed_ignoring_vertical)
     text = text .. string.format("Total Speed: %.6f\n", speed)
+    text = text .. string.format("Max Speed: %.1f\n", core.getMaxPattyWagonSpeed())
     
 
     SetScreenText(text)
