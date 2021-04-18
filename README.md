@@ -38,6 +38,7 @@ Example use cases:
 
 - `TSSM_Core`: Contains the core functions that retrieve and write data to memory, used by the other scripts. No need to run this automatically.
 - `TSSM_Oneframe_Practice`: Allows the user to practice "one-frame" jumps for both SpongeBob and Patrick, showing them how many frame early/late that the jump button is pressed. Currently only works on NTSC in 60fps levels.
+- `TSSM_Pattywagon`: Contains some useful Patty Wagon info, such as nitro count, X, Y and Z velocities, and total speed. Useful for testing speeds on different surfaces for TAS runs, for example.
 
 ## Memory Address Descriptions
 
