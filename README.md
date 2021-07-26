@@ -639,6 +639,10 @@ Example use cases:
       <td colspan="2">Strings that can be used in TEXT assets. Can be used with <code>{var:VariableName}</code>. Many are used by UI elements in-game. Note that, in memory, these strings are all empty by default and only update when queried. TODO: Add screenshots</td>
     </tr>
     <tr>
+      <td>ActivePad</td>
+      <td>Unsure (Controller slot?)</td>
+    </tr>
+    <tr>
       <td>BadCard</td>
       <td>Erroneous memory card, used for warning messages on game boot (e.g. if the memory card is corrupt, has no space remaining etc.)</td>
     </tr>
@@ -649,6 +653,73 @@ Example use cases:
     <tr>
       <td>BadCardNeeded</td>
       <td>Space required to save a game file (used when displaying the warning message on boot when the memory card is erroneous).</td>
+    </tr>
+    <tr>
+      <td>CurrentArea</td>
+      <td>Possibly deprecated, leftover from previous games?<br />
+      Maybe used early on in development.
+        <table>
+          <thead>
+            <tr>
+              <th>Area</th><th>Value of CurrentArea</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>BB02</td><td>Milestone Test Level</td>
+            </tr>
+            <tr>
+              <td>BB03</td><td>Desert 1</td>
+            </tr>
+            <tr>
+              <td>BB01</td><td>Thug Tug 1</td>
+            </tr>
+            <tr>
+              <td>DE01</td><td>Trench 1</td>
+            </tr>
+            <tr>
+              <td>DE02</td><td>Junk 1</td>
+            </tr>
+            <tr>
+              <td>TT01</td><td>Goofy Goober 1</td>
+            </tr>
+            <tr>
+              <td>TT02</td><td>Shell City 1</td>
+            </tr>
+            <tr>
+              <td>B101</td><td>Planktopolis 1</td>
+            </tr>
+            <tr>
+              <td>JK01</td><td>Frog Fish Boss</td>
+            </tr>
+            <tr>
+              <td>B201</td><td>Dennis Boss 1</td>
+            </tr>
+            <tr>
+              <td>GG02</td><td>Neptune Boss</td>
+            </tr>
+            <tr>
+              <td>All other areas</td><td>????</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>CurrentDate</td>
+      <td>The current date, e.g. "Sunday April 4, 2021"</td>
+    </tr>
+    <tr>
+      <td>CurrentLevel</td>
+      <td>The name of the current level, e.g. "No Cheese!"</td>
+    </tr>
+    <tr>
+      <td>CurrentScene</td>
+      <td>The name of the current level's HIP file, e.g. "BB03".</td>
+    </tr>
+    <tr>
+      <td>CurrentTime</td>
+      <td>The current time, e.g. "1:18:03 P.M."</td>
     </tr>
     <tr>
       <td>GameSlot0</td>
@@ -689,16 +760,16 @@ Example use cases:
       <td>Status of game save file slot 7.</td>
     </tr>
     <tr>
-      <td>SpaceAvailable</td>
-      <td>Number of blocks available on the memory card (in the smallest available slot?)</td>
-    </tr>
-    <tr>
-      <td>SpaceAvailableString</td>
-      <td>Unsure, same as SpaceAvailable?</td>
-    </tr>
-    <tr>
       <td>SpaceNeeded</td>
       <td>Space required to save game?</td>
+    </tr>
+    <tr>
+      <td>MCAccessType</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MCAutoSaveCard</td>
+      <td></td>
     </tr>
     <tr>
       <td>MCMaxSpace</td>
@@ -709,28 +780,16 @@ Example use cases:
       <td></td>
     </tr>
     <tr>
-      <td>ActivePad</td>
-      <td>Unsure (Active Controller slot?)</td>
+      <td>MCName</td>
+      <td></td>
     </tr>
     <tr>
-      <td>CurrentDate</td>
-      <td>The current date, e.g. "Sunday April 4, 2021"</td>
+      <td>MCSelectedCard</td>
+      <td></td>
     </tr>
     <tr>
-      <td>CurrentTime</td>
-      <td>The current time, e.g. "1:18:03 P.M."</td>
-    </tr>
-    <tr>
-      <td>PlayerPosition</td>
-      <td>The player's position in the format x, y, z with the decimal part removed (i.e. coordinates are floored).</td>
-    </tr>
-    <tr>
-      <td>SoundMusicVolume</td>
-      <td>Music volume, 0-10.</td>
-    </tr>
-    <tr>
-      <td>SoundFXVolume</td>
-      <td>Sound effects volume, 0-10.</td>
+      <td>MCSelectedGame</td>
+      <td></td>
     </tr>
     <tr>
       <td>NumChestsNeeded</td>
@@ -743,6 +802,38 @@ Example use cases:
     <tr>
       <td>NumChestsTotalCurrentLevel</td>
       <td>Total number of treasure chests in the currently selected level. Updates while scrolling through levels in pause menu.</td>
+    </tr>
+    <tr>
+      <td>PlayerPosition</td>
+      <td>The player's position in the format x, y, z with the decimal part removed (i.e. coordinates are floored).</td>
+    </tr>
+    <tr>
+      <td>PS2PadName</td>
+      <td>Unsure (PlayStation 2 variable?)</td>
+    </tr>
+    <tr>
+      <td>SelectedArea</td>
+      <td>Unsure (Appears to always be "????")</td>
+    </tr>
+    <tr>
+      <td>SoundFXVolume</td>
+      <td>Sound effects volume, 0-10.</td>
+    </tr>
+    <tr>
+      <td>SoundMusicVolume</td>
+      <td>Music volume, 0-10.</td>
+    </tr>
+    <tr>
+      <td>SpaceAvailable</td>
+      <td>Space available on the memory card (TODO: which memory card?)</td>
+    </tr>
+    <tr>
+      <td>SpaceAvailableString</td>
+      <td>Unsure (Same as above?)</td>
+    </tr>
+    <tr>
+      <td>SpaceNeeded</td>
+      <td>Space required to save game?</td>
     </tr>
     <tr>
       <th colspan="2" id="miscellaneous">Miscellaneous</th>
