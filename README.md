@@ -494,8 +494,32 @@ Example use cases:
         <td>The time remaining for the nitro currently being used. When a nitro is used, this value is set to Nitro Duration and counts down to 0.</td>
       </tr>
       <tr>
-        <td>Speed Multiplier (SIMPs only?)</td>
-        <td>Appears to be a multiplier for the patty wagon's max speed when driving on SIMPs (driving on SIMP objects reduces the max speed to 7.5, 0.3 times the normal max speed of 25). Normally <code>0.3</code>.</td>
+        <td>Surface Speed Multipliers</td>
+        <td>Affects the maximum drive and reverse speeds depending on what the patty wagon is driving on.</td>
+        <table>
+          <thead>
+            <tr>
+              <th>Surface</th>
+              <th>Speed Multiplier</th>
+              <th>Effective Max Drive Speed</th>
+              <th>Effective Max Reverse Speed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>SIMPs</td><td><code>0.3</code></td><td>7.5</td><td>3.9</td>
+            </tr>
+            <tr>
+              <td>Asphalt</td><td><code>1</code></td><td>25</td><td>13</td>
+            </tr>
+            <tr>
+              <td>Grass</td><td><code>0.85</code></td><td>21.25</td><td>9.1</td>
+            </tr>  
+            <tr>
+              <td>Sand</td><td><code>0.7</code></td><td>17.5</td><td>9.1</td>
+            </tr>      
+          </tbody>
+        </table>
       </tr>
     </tr>
     <tr>
