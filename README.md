@@ -495,7 +495,7 @@ Example use cases:
       </tr>
       <tr>
         <td>Surface Speed Multipliers</td>
-        <td>Affects the maximum drive and reverse speeds depending on what the patty wagon is driving on.</td>
+        <td>Affects the maximum drive and reverse speeds depending on what the patty wagon is driving on.
         <table>
           <thead>
             <tr>
@@ -520,7 +520,7 @@ Example use cases:
             </tr>      
           </tbody>
         </table>
-      </tr>
+        </td>
     </tr>
     <tr>
       <th colspan="2" id="collectibles">Collectibles</th>
