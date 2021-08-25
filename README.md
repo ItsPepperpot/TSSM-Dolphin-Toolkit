@@ -478,6 +478,10 @@ Example use cases:
         <td>The patty wagon's maximum speed when driving forwards normally on an ideal surface. Normally <code>25</code>. The actual maximum speed is dependent on the surface along which it is driving. TODO: Add how speed is calculated on different surfaces.</td>
       </tr>
       <tr>
+        <td>Max Reverse Speed</td>
+        <td>The patty wagon's maximum speed when reversing normally on an ideal surface. Normally <code>13</code>.</td>
+      </tr>
+      <tr>
         <td>Max Speed Using Nitro</td>
         <td>The patty wagon's maximum speed when using a nitro. Normally <code>29</code>.</td>
       </tr>
