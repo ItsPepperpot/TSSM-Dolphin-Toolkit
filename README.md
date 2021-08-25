@@ -474,8 +474,16 @@ Example use cases:
         <td>The number of nitros the patty wagon has remaining.</td>
       </tr>
       <tr>
-        <td>Patty Wagon Max Speed</td>
-        <td>The patty wagon's maximum speed when driving forwards normally on an ideal surface. The actual maximum speed is dependent on the surface along which it is driving. TODO: Add how speed is calculated on different surfaces.</td>
+        <td>Max Speed</td>
+        <td>The patty wagon's maximum speed when driving forwards normally on an ideal surface. Normally <code>25</code>. The actual maximum speed is dependent on the surface along which it is driving. TODO: Add how speed is calculated on different surfaces.</td>
+      </tr>
+      <tr>
+        <td>Max Speed Using Nitro</td>
+        <td>The patty wagon's maximum speed when using a nitro. Normally <code>29</code>.</td>
+      </tr>
+      <tr>
+        <td>Speed Multiplier (SIMPs only?)</td>
+        <td>Appears to be a multiplier for the patty wagon's max speed when driving on SIMPs (driving on SIMP objects reduces the max speed to 7.5, 0.3 times the normal max speed of 25). Normally <code>0.3</code>.</td>
       </tr>
     </tr>
     <tr>
