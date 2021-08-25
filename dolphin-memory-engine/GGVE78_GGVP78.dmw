@@ -544,6 +544,46 @@
         {
             "groupEntries": [
                 {
+                    "address": "80406908",
+                    "baseIndex": 0,
+                    "label": "Patty Wagon X Velocity",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "8040690C",
+                    "baseIndex": 0,
+                    "label": "Patty Wagon Y Velocity",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80406910",
+                    "baseIndex": 0,
+                    "label": "Patty Wagon Z Velocity",
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "80406DBF",
+                    "baseIndex": 0,
+                    "label": "Nitro Count",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "804B29A0",
+                    "baseIndex": 0,
+                    "label": "Max Speed",
+                    "typeIndex": 3,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Patty Wagon"
+        },
+        {
+            "groupEntries": [
+                {
                     "address": "804AF93B",
                     "baseIndex": 0,
                     "label": "Extras Count",
