@@ -577,6 +577,20 @@
                     "label": "Max Speed",
                     "typeIndex": 3,
                     "unsigned": true
+                },
+                {
+                    "address": "804B2A3C",
+                    "baseIndex": 0,
+                    "label": "Max Speed Using Nitro",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "8038B2C0",
+                    "baseIndex": 0,
+                    "label": "Speed Multiplier (SIMPs only?)",
+                    "typeIndex": 3,
+                    "unsigned": true
                 }
             ],
             "groupName": "Patty Wagon"
@@ -1199,6 +1213,20 @@
                 }
             ],
             "groupName": "Miscellaneous"
+        },
+        {
+            "address": "804B2A3C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
+        },
+        {
+            "address": "804B2A3C",
+            "baseIndex": 0,
+            "label": "No label",
+            "typeIndex": 3,
+            "unsigned": true
         }
     ]
 }
