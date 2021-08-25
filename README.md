@@ -513,7 +513,7 @@ Example use cases:
               <td>Asphalt</td><td><code>1</code></td><td>25</td><td>13</td>
             </tr>
             <tr>
-              <td>Grass</td><td><code>0.85</code></td><td>21.25</td><td>9.1</td>
+              <td>Grass</td><td><code>0.85</code></td><td>21.25</td><td>11.05</td>
             </tr>  
             <tr>
               <td>Sand</td><td><code>0.7</code></td><td>17.5</td><td>9.1</td>
