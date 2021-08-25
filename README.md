@@ -55,7 +55,7 @@ Example use cases:
       <td>Game's ID.<br /><code>G</code> - System Code (GameCube)<br /><code>GV</code> - Title Code (The SpongeBob SquarePants Movie)<br /><code>E</code>/<code>P</code>/<code>D</code>/<code>X</code> - Region Code (Varies)<br /><code>78</code> - Publisher Code (THQ)</td>
     </tr>
     <tr>
-      <th colspan="2">Controller Input</th>
+      <th colspan="2" id="controller-input">Controller Input</th>
     </tr>
     <tr>
       <td>Buttons pressed (Bit field)</td>
@@ -150,7 +150,7 @@ Example use cases:
       <td>How pressed the right shoulder button is.
     </tr>
     <tr>
-      <th colspan="2">Abilities/Upgrades</th>
+      <th colspan="2" id="abilities-upgrades">Abilities/Upgrades</th>
     </tr>
     <tr>
       <td>Karate Spin</td>
@@ -204,7 +204,7 @@ Example use cases:
       Can be set in SB04.ini with <code>G.HealthPat</code>.</td>
     </tr>
     <tr>
-      <th colspan="2">Manliness Point Values</th>
+      <th colspan="2" id="manliness-point-values">Manliness Point Values</th>
     </tr>
     <tr>
       <td>Purple Manliness Value</td>
@@ -233,7 +233,7 @@ Example use cases:
       Default is <code>1</code>, can be set in SB04.ini with <code>G.ShinyValueRed</code>.</td>
     </tr>
     <tr>
-      <th colspan="2">Upgrade Manliness Requirements</th>
+      <th colspan="2" id="upgrade-manliness-requirements">Upgrade Manliness Requirements</th>
     </tr>
     <tr>
       <td colspan="2">The manliness points required to gain the next upgrade point. The values in memory are cumulative (250, 1500, 3000, ..., 35000) whereas the values set in SB04.ini are incremental (250, 1250, 1500, ..., 4000).</td>
@@ -325,7 +325,7 @@ Example use cases:
       </td>
     </tr>
     <tr>
-      <th colspan="2">Health</th>
+      <th colspan="2" id="health">Health</th>
     </tr>
     <tr>
       <td>SpongeBob Health</td>
@@ -352,7 +352,7 @@ Example use cases:
       <td>The maximum health when sliding or driving.<br />Setting this to values above <code>3</code> will update the UI, but you won't gain extra lives as the game is hardcoded to three lives in these levels.</td>
     </tr>
     <tr>
-      <th colspan="2">Player States</th>
+      <th colspan="2" id="player-states">Player States</th>
     </tr>
     <tr>
       <td>Player is Jumping</td>
@@ -384,7 +384,7 @@ Example use cases:
       </td>
     </tr>
     <tr>
-      <th colspan="2">Movement</th>
+      <th colspan="2" id="movement">Movement</th>
     </tr>
     <tr>
       <td>Gravity</td>
@@ -414,7 +414,7 @@ Example use cases:
       The value is not normally reset to <code>0</code>, even when exiting to main menu, so the console/game must be reset or the reduced ice speed persists.
     </tr>
     <tr>
-      <th colspan="2">Last Grounded Position</th>
+      <th colspan="2" id="last-grounded-position">Last Grounded Position</th>
     </tr>
     <tr>
       <td colspan="2">
@@ -436,7 +436,7 @@ Example use cases:
       <td>The player's last grounded Z coordinate.</td>
     </tr>
     <tr>
-      <th colspan="2">Player Position Duplicate (Read-Only)</th>
+      <th colspan="2" id="player-position-duplicate">Player Position Duplicate (Read-Only)</th>
     </tr>
     <tr>
       <td colspan="2">
@@ -456,7 +456,7 @@ Example use cases:
       <td>The player's current Z coordinate.</td>
     </tr>
     <tr>
-      <th colspan="2">Collectibles</th>
+      <th colspan="2" id="collectibles">Collectibles</th>
     </tr>
     <tr>
       <td>Manliness Points</td>
@@ -475,7 +475,7 @@ Example use cases:
       <td>The number of upgrade points remaining.<br />Values above <code>30</code> are displayed as "0" in the upgrade menu.</td>
     </tr>
     <tr>
-      <th colspan="2">Camera</th>
+      <th colspan="2" id="camera">Camera</th>
     </tr>
     <tr>
       <td>Camera Pitch Scale</td>
@@ -507,7 +507,7 @@ Example use cases:
       <td>The camera's roll. TODO: Add units</td>
     </tr>
     <tr>
-      <th colspan="2">Damage</th>
+      <th colspan="2" id="damage">Damage</th>
     </tr>
     <tr>
       <td>Player Can Take Damage</td>
@@ -520,7 +520,7 @@ Example use cases:
       Can be set in SB04.ini with <code>G.DamageTimeHit</code>.</td>
     </tr>
     <tr>
-    <th colspan="2">Options</th>
+    <th colspan="2" id="options">Options</th>
     </tr>
     <tr>
       <td colspan="2">The values set in the options menu. All are <code>0</code> by default until the options menu is opened for the first time.</td>
@@ -538,7 +538,7 @@ Example use cases:
       <td>The setting for sound effects volume.</td>
     </tr>
     <tr>
-      <th colspan="2">Cheat Codes</th>
+      <th colspan="2" id="cheat-codes">Cheat Codes</th>
     </tr>
     <tr>
       <td>Costume Cheats (Bit Field)</td>
@@ -609,7 +609,7 @@ Example use cases:
       Default is <code>1</code>, set to <code>2</code> when the "Double manliness points" cheat code is used.</td>
     </tr>
     <tr>
-      <th colspan="2">Watermark</th>
+      <th colspan="2" id="watermark">Watermark</th>
     </tr>
     <tr>
       <td colspan="2">The watermark is an in-game text overlay. While usually empty, it can be added by adding <code>Watermark = [Your text here...]</code> to SB04.ini or by setting the Watermark Text in Dolphin Memory Engine.</td>
@@ -633,10 +633,14 @@ Example use cases:
       </td>
     </tr>
     <tr>
-      <th colspan="2">TEXT Variables</th>
+      <th colspan="2" id="text-variables">TEXT Variables</th>
     </tr>
     <tr>
       <td colspan="2">Strings that can be used in TEXT assets. Can be used with <code>{var:VariableName}</code>. Many are used by UI elements in-game. Note that, in memory, these strings are all empty by default and only update when queried. TODO: Add screenshots</td>
+    </tr>
+    <tr>
+      <td>ActivePad</td>
+      <td>Unsure (Controller slot?)</td>
     </tr>
     <tr>
       <td>BadCard</td>
@@ -649,6 +653,73 @@ Example use cases:
     <tr>
       <td>BadCardNeeded</td>
       <td>Space required to save a game file (used when displaying the warning message on boot when the memory card is erroneous).</td>
+    </tr>
+    <tr>
+      <td>CurrentArea</td>
+      <td>Possibly deprecated, leftover from previous games?<br />
+      Maybe used early on in development.
+        <table>
+          <thead>
+            <tr>
+              <th>Area</th><th>Value of CurrentArea</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>BB02</td><td>Milestone Test Level</td>
+            </tr>
+            <tr>
+              <td>BB03</td><td>Desert 1</td>
+            </tr>
+            <tr>
+              <td>BB01</td><td>Thug Tug 1</td>
+            </tr>
+            <tr>
+              <td>DE01</td><td>Trench 1</td>
+            </tr>
+            <tr>
+              <td>DE02</td><td>Junk 1</td>
+            </tr>
+            <tr>
+              <td>TT01</td><td>Goofy Goober 1</td>
+            </tr>
+            <tr>
+              <td>TT02</td><td>Shell City 1</td>
+            </tr>
+            <tr>
+              <td>B101</td><td>Planktopolis 1</td>
+            </tr>
+            <tr>
+              <td>JK01</td><td>Frog Fish Boss</td>
+            </tr>
+            <tr>
+              <td>B201</td><td>Dennis Boss 1</td>
+            </tr>
+            <tr>
+              <td>GG02</td><td>Neptune Boss</td>
+            </tr>
+            <tr>
+              <td>All other areas</td><td>????</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>CurrentDate</td>
+      <td>The current date, e.g. "Sunday April 4, 2021"</td>
+    </tr>
+    <tr>
+      <td>CurrentLevel</td>
+      <td>The name of the current level, e.g. "No Cheese!"</td>
+    </tr>
+    <tr>
+      <td>CurrentScene</td>
+      <td>The name of the current level's HIP file, e.g. "BB03".</td>
+    </tr>
+    <tr>
+      <td>CurrentTime</td>
+      <td>The current time, e.g. "1:18:03 P.M."</td>
     </tr>
     <tr>
       <td>GameSlot0</td>
@@ -689,16 +760,16 @@ Example use cases:
       <td>Status of game save file slot 7.</td>
     </tr>
     <tr>
-      <td>SpaceAvailable</td>
-      <td>Number of blocks available on the memory card (in the smallest available slot?)</td>
-    </tr>
-    <tr>
-      <td>SpaceAvailableString</td>
-      <td>Unsure, same as SpaceAvailable?</td>
-    </tr>
-    <tr>
       <td>SpaceNeeded</td>
       <td>Space required to save game?</td>
+    </tr>
+    <tr>
+      <td>MCAccessType</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MCAutoSaveCard</td>
+      <td></td>
     </tr>
     <tr>
       <td>MCMaxSpace</td>
@@ -709,28 +780,16 @@ Example use cases:
       <td></td>
     </tr>
     <tr>
-      <td>ActivePad</td>
-      <td>Unsure (Active Controller slot?)</td>
+      <td>MCName</td>
+      <td></td>
     </tr>
     <tr>
-      <td>CurrentDate</td>
-      <td>The current date, e.g. "Sunday April 4, 2021"</td>
+      <td>MCSelectedCard</td>
+      <td></td>
     </tr>
     <tr>
-      <td>CurrentTime</td>
-      <td>The current time, e.g. "1:18:03 P.M."</td>
-    </tr>
-    <tr>
-      <td>PlayerPosition</td>
-      <td>The player's position in the format x, y, z with the decimal part removed (i.e. coordinates are floored).</td>
-    </tr>
-    <tr>
-      <td>SoundMusicVolume</td>
-      <td>Music volume, 0-10.</td>
-    </tr>
-    <tr>
-      <td>SoundFXVolume</td>
-      <td>Sound effects volume, 0-10.</td>
+      <td>MCSelectedGame</td>
+      <td></td>
     </tr>
     <tr>
       <td>NumChestsNeeded</td>
@@ -745,7 +804,39 @@ Example use cases:
       <td>Total number of treasure chests in the currently selected level. Updates while scrolling through levels in pause menu.</td>
     </tr>
     <tr>
-      <th colspan="2">Miscellaneous</th>
+      <td>PlayerPosition</td>
+      <td>The player's position in the format x, y, z with the decimal part removed (i.e. coordinates are floored).</td>
+    </tr>
+    <tr>
+      <td>PS2PadName</td>
+      <td>Unsure (PlayStation 2 variable?)</td>
+    </tr>
+    <tr>
+      <td>SelectedArea</td>
+      <td>Unsure (Appears to always be "????")</td>
+    </tr>
+    <tr>
+      <td>SoundFXVolume</td>
+      <td>Sound effects volume, 0-10.</td>
+    </tr>
+    <tr>
+      <td>SoundMusicVolume</td>
+      <td>Music volume, 0-10.</td>
+    </tr>
+    <tr>
+      <td>SpaceAvailable</td>
+      <td>Space available on the memory card (TODO: which memory card?)</td>
+    </tr>
+    <tr>
+      <td>SpaceAvailableString</td>
+      <td>Unsure (Same as above?)</td>
+    </tr>
+    <tr>
+      <td>SpaceNeeded</td>
+      <td>Space required to save game?</td>
+    </tr>
+    <tr>
+      <th colspan="2" id="miscellaneous">Miscellaneous</th>
     </tr>
     <tr>
       <td>Boot HIP File</td>
