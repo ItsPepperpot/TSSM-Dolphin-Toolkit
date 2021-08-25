@@ -586,6 +586,20 @@
                     "unsigned": true
                 },
                 {
+                    "address": "804B0158",
+                    "baseIndex": 0,
+                    "label": "Nitro Duration",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406DC0",
+                    "baseIndex": 0,
+                    "label": "Nitro Time Remaining",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
                     "address": "8038B2C0",
                     "baseIndex": 0,
                     "label": "Speed Multiplier (SIMPs only?)",
