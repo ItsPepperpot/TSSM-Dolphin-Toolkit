@@ -456,6 +456,29 @@ Example use cases:
       <td>The player's current Z coordinate.</td>
     </tr>
     <tr>
+      <th colspan="2" id="patty-wagon">Patty Wagon</th>
+      <tr>
+        <td>Patty Wagon X Velocity</td>
+        <td>The patty wagon's velocity along the X axis.</td>
+      </tr>
+      <tr>
+        <td>Patty Wagon Y Velocity</td>
+        <td>The patty wagon's velocity along the Y axis.</td>
+      </tr>
+      <tr>
+        <td>Patty Wagon Z Velocity</td>
+        <td>The patty wagon's velocity along the Z axis.</td>
+      </tr>
+      <tr>
+        <td>Nitro Count</td>
+        <td>The number of nitros the patty wagon has remaining.</td>
+      </tr>
+      <tr>
+        <td>Patty Wagon Max Speed</td>
+        <td>The patty wagon's maximum speed when driving forwards normally on an ideal surface. The actual maximum speed is dependent on the surface along which it is driving. TODO: Add how speed is calculated on different surfaces.</td>
+      </tr>
+    </tr>
+    <tr>
       <th colspan="2" id="collectibles">Collectibles</th>
     </tr>
     <tr>
