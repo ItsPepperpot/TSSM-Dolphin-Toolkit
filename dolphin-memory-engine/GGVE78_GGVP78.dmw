@@ -607,11 +607,37 @@
                     "unsigned": true
                 },
                 {
-                    "address": "8038B2C0",
-                    "baseIndex": 0,
-                    "label": "Speed Multiplier (SIMPs only?)",
-                    "typeIndex": 3,
-                    "unsigned": true
+                    "groupEntries": [
+                        {
+                            "address": "8038B2C0",
+                            "baseIndex": 0,
+                            "label": "SIMPs?",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8038B2F8",
+                            "baseIndex": 0,
+                            "label": "Asphalt",
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8038B34C",
+                            "baseIndex": 0,
+                            "label": "Grass",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8038B368",
+                            "baseIndex": 0,
+                            "label": "Sand",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Surface Speed Multipliers"
                 }
             ],
             "groupName": "Patty Wagon"
