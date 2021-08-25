@@ -569,7 +569,7 @@
                     "baseIndex": 0,
                     "label": "Nitro Count",
                     "typeIndex": 0,
-                    "unsigned": false
+                    "unsigned": true
                 },
                 {
                     "address": "804B29A0",
@@ -1213,20 +1213,6 @@
                 }
             ],
             "groupName": "Miscellaneous"
-        },
-        {
-            "address": "804B2A3C",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": true
-        },
-        {
-            "address": "804B2A3C",
-            "baseIndex": 0,
-            "label": "No label",
-            "typeIndex": 3,
-            "unsigned": true
         }
     ]
 }
