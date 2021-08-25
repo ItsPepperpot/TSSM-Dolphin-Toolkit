@@ -471,7 +471,7 @@ Example use cases:
       </tr>
       <tr>
         <td>Nitro Count</td>
-        <td>The number of nitros the patty wagon has remaining.</td>
+        <td>The number of nitros the patty wagon has remaining (0-255).</td>
       </tr>
       <tr>
         <td>Max Speed</td>
