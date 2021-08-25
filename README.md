@@ -482,6 +482,14 @@ Example use cases:
         <td>The patty wagon's maximum speed when using a nitro. Normally <code>29</code>.</td>
       </tr>
       <tr>
+        <td>Nitro Duration</td>
+        <td>How long the nitro lasts for, in seconds. Normally <code>2.5</code>.</td>
+      </tr>
+      <tr>
+        <td>Nitro Time Remaining</td>
+        <td>The time remaining for the nitro currently being used. When a nitro is used, this value is set to Nitro Duration and counts down to 0.</td>
+      </tr>
+      <tr>
         <td>Speed Multiplier (SIMPs only?)</td>
         <td>Appears to be a multiplier for the patty wagon's max speed when driving on SIMPs (driving on SIMP objects reduces the max speed to 7.5, 0.3 times the normal max speed of 25). Normally <code>0.3</code>.</td>
       </tr>
