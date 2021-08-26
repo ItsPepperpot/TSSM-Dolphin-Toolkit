@@ -21,14 +21,15 @@ function onScriptUpdate()
 
     text = ""
     text = text .. "Patty Wagon\n\n"
-    text = text .. string.format("Nitro Count: %d\n", core.getNitroCount())
     text = text .. string.format("X Velocity: %.6f\n", x_vel)
     text = text .. string.format("Y Velocity: %.6f\n", y_vel)
     text = text .. string.format("Z Velocity: %.6f\n", z_vel)
     text = text .. string.format("Total Speed (ignoring Y): %.6f\n", speed_ignoring_vertical)
     text = text .. string.format("Total Speed: %.6f\n", speed)
-    text = text .. string.format("Max Speed: %.1f\n", core.getMaxPattyWagonSpeed())
-    
+    text = text .. string.format("Max Drive Speed: %.1f\n", core.getMaxPattyWagonSpeed())
+    text = text .. string.format("Max Reverse Speed: %.1f\n", core.getMaxPattyWagonReverseSpeed())  
+    text = text .. string.format("Nitro Count: %d\n", core.getNitroCount())
+    text = text .. string.format("Nitro Time Remaining: %.3f\n", core.getNitroTimeRemaining())    
 
     SetScreenText(text)
 end

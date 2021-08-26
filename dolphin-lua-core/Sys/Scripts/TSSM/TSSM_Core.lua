@@ -39,6 +39,30 @@ local function getMaxPattyWagonSpeed()
 end
 core.getMaxPattyWagonSpeed = getMaxPattyWagonSpeed
 
+--- returns the max Patty Wagon speed
+local function getMaxPattyWagonReverseSpeed()
+    if core.game_ID == "GGVE78" or core.game_ID == "GGVP78" then
+        return ReadValueFloat(0x804B29A4)
+    elseif core.game_ID == "GGVD78" then
+        return 0
+    end
+    -- GGVX78
+    return 0
+end
+core.getMaxPattyWagonReverseSpeed = getMaxPattyWagonReverseSpeed
+
+--- returns the current nitro time remaining
+local function getNitroTimeRemaining()
+    if core.game_ID == "GGVE78" or core.game_ID == "GGVP78" then
+        return ReadValueFloat(0x80406DC0)
+    elseif core.game_ID == "GGVD78" then
+        return 0
+    end
+    -- GGVX78
+    return 0
+end
+core.getNitroTimeRemaining = getNitroTimeRemaining
+
 --- returns the Patty Wagon Y velocity
 local function getPattyWagonYVelocity()
     if core.game_ID == "GGVE78" or core.game_ID == "GGVP78" then
