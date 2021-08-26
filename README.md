@@ -1,5 +1,7 @@
 # TSSM-Dolphin-Toolkit
 
+<img src="preview.png" alt="A preview of the Dolphin Memory Engine watch file, next to a screenshot of the game with the Patty Wagon overlay." />
+
 A toolset of useful Dolphin utilities for The SpongeBob SquarePants Movie, aimed to be used by speedrunners and TAS creators. It contains .dmw files that label notable memory addresses, useful for debugging and speedrunning strat hunting/practice.
 
 Also included are various Lua scripts for Dolphin Lua Core, allowing TAS creators to create their runs easier and practice scripts for speedrunners.
