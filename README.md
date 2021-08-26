@@ -475,7 +475,7 @@ Example use cases:
       </tr>
       <tr>
         <td>Max Speed</td>
-        <td>The patty wagon's maximum speed when driving forwards normally on an ideal surface. Normally <code>25</code>. The actual maximum speed is dependent on the surface along which it is driving. TODO: Add how speed is calculated on different surfaces.</td>
+        <td>The patty wagon's maximum speed when driving forwards normally on an ideal surface. Normally <code>25</code>. The actual maximum speed is dependent on the surface along which it is driving, see <a href="#surface-speed-multipliers">Surface Speed Multipliers</a></td>
       </tr>
       <tr>
         <td>Max Reverse Speed</td>
@@ -494,7 +494,7 @@ Example use cases:
         <td>The time remaining for the nitro currently being used. When a nitro is used, this value is set to Nitro Duration and counts down to 0.</td>
       </tr>
       <tr>
-        <td>Surface Speed Multipliers</td>
+        <td id="surface-speed-multipliers">Surface Speed Multipliers</td>
         <td>Affects the maximum drive and reverse speeds depending on what the patty wagon is driving on.
         <table>
           <thead>
@@ -510,14 +510,17 @@ Example use cases:
               <td>SIMPs</td><td><code>0.3</code></td><td>7.5</td><td>3.9</td>
             </tr>
             <tr>
-              <td>Asphalt</td><td><code>1</code></td><td>25</td><td>13</td>
+              <td>Asphalt/Water/Bridges</td><td><code>1</code></td><td>25</td><td>13</td>
             </tr>
             <tr>
               <td>Grass</td><td><code>0.85</code></td><td>21.25</td><td>11.05</td>
             </tr>  
             <tr>
               <td>Sand</td><td><code>0.7</code></td><td>17.5</td><td>9.1</td>
-            </tr>      
+            </tr>
+            <tr>
+              <td>Mud</td><td><code>0.4</code></td><td>10</td><td>5.2</td>
+            </tr>
           </tbody>
         </table>
         </td>
