@@ -501,8 +501,8 @@ Example use cases:
             <tr>
               <th>Surface</th>
               <th>Speed Multiplier</th>
-              <th>Effective Max Drive Speed</th>
-              <th>Effective Max Reverse Speed</th>
+              <th>Max Drive Speed</th>
+              <th>Max Reverse Speed</th>
             </tr>
           </thead>
           <tbody>
