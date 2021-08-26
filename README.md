@@ -41,6 +41,7 @@ Example use cases:
 - `TSSM_Pattywagon`: Contains some useful Patty Wagon info, such as nitro count, X, Y and Z velocities, and total speed. Useful for testing speeds on different surfaces for TAS runs, for example.
 
 ## Memory Address Descriptions
+
 ⚠ This is subject to change and will be updated with new information as it is available.
 
 <table>
