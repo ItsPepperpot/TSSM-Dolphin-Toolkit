@@ -283,6 +283,65 @@
         {
             "groupEntries": [
                 {
+                    "address": "804AE4EC",
+                    "baseIndex": 0,
+                    "label": "Cartwheel Damage Size",
+                    "typeIndex": 3,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Patrick Cartwheel"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "804AF428",
+                    "baseIndex": 0,
+                    "label": "Minimum Pickup Distance",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AF42C",
+                    "baseIndex": 0,
+                    "label": "Maximum Pickup Distance",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AF430",
+                    "baseIndex": 0,
+                    "label": "Min Pickup Height",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AF434",
+                    "baseIndex": 0,
+                    "label": "Max Pickup Height",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "803FF7B0",
+                    "baseIndex": 0,
+                    "label": "Current Fruit Lifetime",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804B02CC",
+                    "baseIndex": 0,
+                    "label": "Fruit Carry Lifetime",
+                    "typeIndex": 3,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Patrick Pickup/Carry/Throw"
+        },
+        {
+            "groupEntries": [
+                {
                     "address": "804AEE53",
                     "baseIndex": 0,
                     "label": "Patrick Health",
@@ -398,6 +457,20 @@
         {
             "groupEntries": [
                 {
+                    "address": "804AE411",
+                    "baseIndex": 0,
+                    "label": "Analog Stick Min",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AE413",
+                    "baseIndex": 0,
+                    "label": "Analog Stick Max",
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
                     "address": "804AE4B8",
                     "baseIndex": 0,
                     "label": "Gravity",
@@ -448,46 +521,6 @@
                 }
             ],
             "groupName": "Movement"
-        },
-        {
-            "groupEntries": [
-                {
-                    "address": "804AF428",
-                    "baseIndex": 0,
-                    "label": "Minimum Pickup Distance",
-                    "typeIndex": 3,
-                    "unsigned": true
-                },
-                {
-                    "address": "804AF42C",
-                    "baseIndex": 0,
-                    "label": "Maximum Pickup Distance",
-                    "typeIndex": 3,
-                    "unsigned": true
-                },
-                {
-                    "address": "804AF430",
-                    "baseIndex": 0,
-                    "label": "Min Pickup Height",
-                    "typeIndex": 3,
-                    "unsigned": true
-                },
-                {
-                    "address": "804AF434",
-                    "baseIndex": 0,
-                    "label": "Max Pickup Height",
-                    "typeIndex": 3,
-                    "unsigned": true
-                },
-                {
-                    "address": "804AF4AC",
-                    "baseIndex": 0,
-                    "label": "Fruit Carry Lifetime",
-                    "typeIndex": 3,
-                    "unsigned": true
-                }
-            ],
-            "groupName": "Patrick Pickup/Carry/Throw"
         },
         {
             "groupEntries": [
@@ -742,6 +775,13 @@
                     "address": "804AE484",
                     "baseIndex": 0,
                     "label": "Damage Delay Timer",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AE478",
+                    "baseIndex": 0,
+                    "label": "Combo Timer",
                     "typeIndex": 3,
                     "unsigned": true
                 }
@@ -1098,6 +1138,20 @@
                     "unsigned": true
                 },
                 {
+                    "address": "804AE414",
+                    "baseIndex": 0,
+                    "label": "Sundae Duration (Unused Powerup)",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
+                    "address": "804AE418",
+                    "baseIndex": 0,
+                    "label": "Sundae Multiplier (Unused Powerup)",
+                    "typeIndex": 3,
+                    "unsigned": true
+                },
+                {
                     "address": "804AE24F",
                     "baseIndex": 0,
                     "label": "Asynchronous Loading Screen",
@@ -1165,6 +1219,13 @@
                     "baseIndex": 0,
                     "label": "Inital Unused Upgrade Points",
                     "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8048AFD4",
+                    "baseIndex": 0,
+                    "label": "Sonic Wave Time",
+                    "typeIndex": 3,
                     "unsigned": true
                 },
                 {
